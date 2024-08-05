@@ -4,7 +4,7 @@ import { APP_BLOG } from 'astrowind:config';
 import Grid from '~/components/blog/Grid.astro';
 
 import { getBlogPermalink } from '~/utils/permalinks';
-import { findLatestPosts } from '~/utils/blog';
+import { findUpcomingPosts } from '~/utils/blog';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import type { Widget } from '~/types';
 import Button from '../ui/Button.astro';
@@ -19,7 +19,7 @@ export interface Props extends Widget {
 
 const {
   title = await Astro.slots.render('title'),
-  linkText = 'LATE View all posts',
+  linkText = 'View all upcoming events',
   linkUrl = getBlogPermalink(),
   information = await Astro.slots.render('information'),
   count = 4,
@@ -30,7 +30,7 @@ const {
   bg = await Astro.slots.render('bg'),
 } = Astro.props;
 
-const posts = APP_BLOG.isEnabled ? await findLatestPosts({ count }) : [];
+const posts = APP_BLOG.isEnabled ? await findUpcomingPosts({ count }) : [];
 ---
 
 {

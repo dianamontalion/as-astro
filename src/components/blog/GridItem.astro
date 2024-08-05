@@ -34,6 +34,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
               layout="cover"
               loading="lazy"
               decoding="async"
+              style="object-fit: fill"
             />
           </a>
         ) : (
@@ -48,6 +49,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
             layout="cover"
             loading="lazy"
             decoding="async"
+            style="object-fit: fill"
           />
         ))
     }

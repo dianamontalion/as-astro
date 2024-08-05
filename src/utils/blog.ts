@@ -173,6 +173,13 @@ export const findLatestPosts = async ({ count }: { count?: number }): Promise<Ar
   return posts ? posts.slice(0, _count) : [];
 };
 
+export const findUpcomingPosts = async ({ count }: { count?: number }): Promise<Array<Post>> => {
+  const _count = count || 4;
+  const posts = await fetchPosts();
+  const eventPosts = posts.filter((post) => post.category?.slug === "events")
+  return eventPosts ? eventPosts.slice(0, _count) : [];
+};
+
 /** */
 export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateFunction }) => {
   if (!isBlogEnabled || !isBlogListRouteEnabled) return [];

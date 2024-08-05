@@ -1,9 +1,11 @@
 ---
 import { SITE } from 'astrowind:config';
+import { Image } from 'astro:assets';
+import logo from '~/assets/images/dm-logo.png';
 ---
-
+<Image  src={logo} alt="diana montalion logo" style="width: 40px; height: 40px;"/>
 <span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
+  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-secondary whitespace-nowrap dark:text-white"
 >
-  🚀 {SITE?.name}
+{SITE?.name} 
 </span>

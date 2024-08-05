@@ -3,12 +3,15 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Headline from '~/components/ui/Headline.astro';
 import ItemGrid2 from '~/components/ui/ItemGrid2.astro';
 import type { Features as Props } from '~/types';
+import Button from '../ui/Button.astro';
 
 const {
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
   tagline = await Astro.slots.render('tagline'),
+  actions = await Astro.slots.render('actions'),
   items = [],
+  callToAction1 = {},
   columns = 3,
   defaultIcon,
 
@@ -35,4 +38,26 @@ const {
       ...((classes?.items as Record<string, never>) ?? {}),
     }}
   />
+  {
+    callToAction1 && (
+      <div class="mb-8 text-center text-primary">
+        <Button variant="button" {...callToAction1} />
+      </div>
+    )
+  }
+  {
+    actions && (
+      <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
+        {Array.isArray(actions) ? (
+          actions.map((action) => (
+            <div class="flex w-full sm:w-auto">
+              <Button {...(action || {})} class="w-full sm:mb-0" />
+            </div>
+          ))
+        ) : (
+          <Fragment set:html={actions} />
+        )}
+      </div>
+    )
+  }
 </WidgetWrapper>
