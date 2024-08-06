@@ -11,6 +11,8 @@ import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import BlogUpcomingPosts from '~/components/widgets/BlogUpcomingPosts.astro';
+import BlogFeaturedPosts from '~/components/widgets/BlogFeaturedPosts.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -146,12 +148,12 @@ subtitle="As Mentrix founder and a systems architect, I take a systems-thinking 
 
 <Hero3
     id='newsletter'
-    tagline="Subscribe Now!"
+    tagline="get the newsletter"
     actions={[
       { variant: 'primary', target: '_blank', text: "Subscribe Now", href: "https://architectingsystems.com/" },
     ]}
     image={{
-      src: '~/assets/images/dm-ae.jpeg',
+      src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1722945134/ae-email-header_yznvlq.png',
       alt: 'Architecting Systems',
     }}
   >
@@ -174,19 +176,19 @@ subtitle="I generate a variety of learning experiences that enable and empower e
     {
       title: 'Workshops & Courses',
       description: "Hands-on experience with systems design and the mindshift towards systems development.",
-      icon: 'discourse',
+      icon: 'workshop',
     },
     {
       title: 'Publications',
       description:
         "My writing practice predates learning to code. I publish books, articles and a weekly newsletter to help people navigate the complex world of systems.",
-      icon: 'system',
+      icon: 'publication',
     },
     {
       title: 'Keynotes and Talks',
       description:
         'My first love (and college major) was theater. I use those skills to bring new perspectives to community-of-practice events',
-      icon: 'knowledge',
+      icon: 'keynote',
     },
   ]}
   actions={[
@@ -198,6 +200,139 @@ subtitle="I generate a variety of learning experiences that enable and empower e
   </Fragment>
 </Features2>
 
+ <!-- Content Widget **************** -->
+
+ <Content
+ isReversed
+ tagline="more to explore"
+ title="Spaces For Systems Learning"
+ subtitle='Want to dive into learning, right now? Join the community of systems explorers.'
+ items={[
+   {
+     title: 'Learning Resources for Systems Thinkers',
+     description:
+       'Nonlinear skills, practices and approaches for technology professionals building knowledge systems. Recommend your favorites!',
+     icon: 'library',
+   },
+   {
+     title: 'Collections & Types',
+     description:
+       'Articles, talks, books, podcasts, courses and more ... organized by themes and practices that nourish and support systems thinking and design.',
+     icon: 'collection',
+   },
+   {
+     title: 'Discover Experts',
+     description:
+       'Browse resources published by systems experts and find more perspectives to support your learning practice.',
+     icon: 'expert',
+   },
+ ]}
+ image={{
+   src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1722945855/create-once-publish-everywhere-white.jpg',
+   alt: 'Create once publish everywhere image',
+ }}
+  callToAction={{
+    target: '_blank',
+    text: 'Visit the Systems Library...',
+    href: 'https://systemslibrary.com/',
+    icon: 'tabler:chevron-right',
+  }}
+>
+ <Fragment slot="content">
+   <h3 class="text-2xl font-bold tracking-tight text-accent dark:text-white sm:text-3xl mb-2">The Systems Library</h3>
+ </Fragment>
+</Content>
+
+<!-- Content Widget **************** -->
+
+<Content
+ isAfterContent
+ items={[
+   {
+     title: 'Join the Community',
+     description:
+       'Converse with other technologists faced with increasing complexity. We learn from each other while practicing the art and science of systems design.',
+     icon: 'community',
+   },
+   {
+     title: 'Take Courses',
+     description:
+       'Courses on demand and real-time cohort courses that improve our skills and strengthen our practice.',
+     icon: 'course',
+   },
+   {
+     title: 'Practice Together',
+     description:
+       'Informal groups to support a specific practice, like daily writing or pitching your ideas.',
+     icon: 'practice',
+   },
+ ]}
+ image={{
+   src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1722944980/group-thinking-together-white.jpg',
+   alt: 'SystemCrafters Collective image',
+ }}
+ callToAction={{
+  target: '_blank',
+  text: 'Join the SystemsCrafters Collective ...',
+  href: 'https://mentrix.systems/',
+  icon: 'tabler:chevron-right',
+}}
+>
+ <Fragment slot="content">
+   <h3 class="text-2xl font-bold text-accent tracking-tight dark:text-white sm:text-3xl mb-2"> SoftwareCrafters Collective</h3>
+ </Fragment>
+</Content>
+
+    <!-- Featured Posts Widget ******* -->
+
+  <BlogFeaturedPosts
+    title="Find out more content in our Blog"
+    information={`The blog is used to display AstroWind documentation.
+                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
+                        Astro is a very interesting technology. Thanks.
+                `}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogFeaturedPosts>
+
+<!-- Testimonials Widget *********** -->
+
+<Testimonials
+ title="Speaking from experience ..."
+ testimonials={[
+   {
+     testimonial: `Enjoyed Diana's workshop on Non-linear thinking: the workshop was well structured, very informative and gave me some insight in my own way of thinking. Diana is an enthusiastic host and really gets the people involved. I can easily recommend this workshop for anyone in the domain of software architecture and product management.`,
+     name: 'Willem Sander Huiskamp',
+     job: 'Software Architect',
+     image: {
+       src: '~/assets/images/willem.jpeg',
+       alt: 'Willem Image',
+     },
+   },
+   {
+     testimonial: `Diana is a highly talented architect and technologist who has the ability to understand and communicate complex interdependencies and bring alignment, direction and leadership. Diana has the ability to be effective at every level, be it while presenting to the executive through to being hands on with the team. Her enterprise architecture skills are second to none.`,
+     name: 'Mark Brincat',
+     job: 'CTO',
+     image: {
+       src: '~/assets/images/mb.jpeg',
+       alt: 'Mark Brincat Image',
+     },
+   },
+   {
+     testimonial: `We need to face the fact that modern software development is a complex endeavor that we can't fully control and plan. Diana does an exemplary job of giving us language and practices to help us improve our approaches.`,
+     name: 'Dr. Eduardo da Silva',
+     job: 'Independent Consultant on Sociotechnical Architecture Modernization',
+     image: {
+       src: '~/assets/images/eduardo.jpeg',
+       alt: 'Mark Wilkinson Image',
+     },
+   },
+ ]}
+>
+</Testimonials>
+
   
   <!-- CallToAction Widget *********** -->
 
@@ -205,44 +340,18 @@ subtitle="I generate a variety of learning experiences that enable and empower e
     actions={[
       {
         variant: 'secondary',
-        text: 'Systems Library',
+        text: 'Get in Touch',
         href: 'https://systemslibrary.com/',
-        target: '_blank',
-      },
-      {
-        variant: 'secondary',
-        text: 'SystemCrafters Collective',
-        href: 'https://mentrix.systems',
-        target: '_blank',
-      },
-      {
-        variant: 'secondary',
-        text: 'Videos & Interviews',
-        href: 'https://mentrixgroup.com/talk-videos',
         target: '_blank',
       },
     ]}
   >
     <Fragment slot="title">
-      More to Explore
+      How Can I Help?
     </Fragment>
 
     <Fragment slot="subtitle">
-       Want to dive in, right? Visit these other spaces.
+       Let's work together to improve skills and solve systems challenges.
     </Fragment>
   </CallToAction>
-
-    <!-- HighlightedPosts Widget ******* -->
-
-    <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
-  >
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-    </BlogLatestPosts>
 </Layout>
