@@ -4,12 +4,8 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 import Hero3 from '~/components/widgets/Hero3.astro';
-import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import BlogUpcomingPosts from '~/components/widgets/BlogUpcomingPosts.astro';
 import BlogFeaturedPosts from '~/components/widgets/BlogFeaturedPosts.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
@@ -22,8 +18,8 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-
+  
+  <!-- Hero  -->
   <Hero
     tagline="DIANA MONTALION"
     actions={[
@@ -31,7 +27,8 @@ const metadata = {
       { variant: "tertiary", icon: "brand-mastodon", text: "Fediverse", href: "https://hachyderm.io/@diana"},
       { variant: "tertiary", icon: "brand-youtube", text: "Videos", href: "https://www.youtube.com/@dianamontalion"},
       { variant: "tertiary", icon: "brand-bluesky", text: "Bluesky", href: "https://www.youtube.com/@dianamontalion"}, 
-      { variant: "tertiary", icon: "micro-blog", text: "MicroBlog", href: "https://blog.montalion.com"} 
+      { variant: "tertiary", icon: "micro-blog", text: "MicroBlog", href: "https://blog.montalion.com"},
+      { variant: "tertiary", icon: "as-logo", text: "Newsletter", href: "https://architectingsystems.com/"} 
     ]}
     image={{ src: '~/assets/images/montalion-hero.png', alt: 'Diana Montalion Homepage' }} 
   >
@@ -46,9 +43,7 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Features Widget *************** -->
-
-   <!-- Features2 Widget ************** -->
+   <!-- Upcoming Events -->
 
    <BlogUpcomingPosts
    title="Upcoming Events"
@@ -61,7 +56,7 @@ const metadata = {
    </Fragment>
   </BlogUpcomingPosts>
  
-
+   <!-- Book Tout -->
   <Hero2
     id='book'
     tagline="New Book"
@@ -84,10 +79,11 @@ const metadata = {
       <span class="font-semibold">Welcome to the systems age, where software professionals are no longer building software—we are building systems of software</span>. In this world of increasing relational complexity, we need to think differently. <br /><br />This book shows you how systems thinking can guide you through the complexity of modern systems. Through a series of practices and real-world scenarios, you will learn to shift your perspective in order to design, develop, and deliver better outcomes.
   </Fragment>
 </Hero2>
-
-<!-- Features2 Widget ************** -->
+  
+<!-- Experience -->
 
 <Features2
+id="experience"
 title="Systems Architecture"
 tagline="Professional Experience"
 subtitle="As Mentrix founder and a systems architect, I take a systems-thinking approach to software development. Transform the flow and structure of information. Improve relationship patterns, in people and in software. Cultivate critical thinking skills. Build strong teams. Recommend changes that don't just fix -- they transform."
@@ -144,7 +140,7 @@ subtitle="As Mentrix founder and a systems architect, I take a systems-thinking 
     },
   ]}
   actions={[
-    { variant: "primary", text: 'Contact Mentrix', href: 'https://mentrixgroup.com/how-can-we-help' },
+    { variant: "primary", text: 'Contact Mentrix', href: 'https://mentrixgroup.com/contact' },
   ]},
 >
   <Fragment slot="bg">
@@ -152,67 +148,13 @@ subtitle="As Mentrix founder and a systems architect, I take a systems-thinking 
   </Fragment>
 </Features2>
 
-<Hero3
-    id='newsletter'
-    tagline="get the newsletter"
-    actions={[
-      { variant: 'primary', target: '_blank', text: "Subscribe Now", href: "https://architectingsystems.com/" },
-    ]}
-    image={{
-      src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1722945134/ae-email-header_yznvlq.png',
-      alt: 'Architecting Systems',
-    }}
-  >
-  <Fragment slot="title">
-    Design and Deliver <span class="text-accent dark:text-white highlight"
-    >Impactful Systems</span>
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    <span class="hidden sm:inline">
-      <span class="font-semibold">Architecting Systems is the weekly publication for systems thinkers. Develop the skills you need to succeed in an increasingly-complex world. 
-  </Fragment>
-</Hero3>
-
-<Features2
-title="Learning Experiences"
-tagline="Grow Your Skills"
-subtitle="I generate a variety of learning experiences that enable and empower essential skills. If you'd like to talk to me about a speaking engagement, workshops or writing for your publication, let's chat."
-  items={[
-    {
-      title: 'Workshops & Courses',
-      description: "Hands-on experience with systems design and the mindshift towards systems development.",
-      icon: 'workshop',
-    },
-    {
-      title: 'Publications',
-      description:
-        "I publish books, articles and a weekly newsletter to help people navigate the complex world of systems.",
-      icon: 'publication',
-    },
-    {
-      title: 'Keynotes and Talks',
-      description:
-        'My first love was theater. I use those skills to bring new perspectives to community-of-practice events.',
-      icon: 'keynote',
-    },
-  ]}
-  actions={[
-    { variant: "primary", text: 'How Can I Help?', href: '/contact' },
-  ]},
->
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Features2>
-
- <!-- Content Widget **************** -->
-
- <Content
+   <!-- Systems School Stuff -->
+<Content
  isReversed
  tagline="more to explore"
- title="Spaces For Systems Learning"
+ title="School of Systems"
  subtitle='Want to dive into learning, right now? Join the community of systems explorers.'
+ id="learning"
  items={[
    {
      title: 'Learning Resources for Systems Thinkers',
@@ -249,7 +191,6 @@ subtitle="I generate a variety of learning experiences that enable and empower e
  </Fragment>
 </Content>
 
-<!-- Content Widget **************** -->
 
 <Content
  isAfterContent
@@ -289,11 +230,67 @@ subtitle="I generate a variety of learning experiences that enable and empower e
  </Fragment>
 </Content>
 
-    <!-- Featured Posts Widget ******* -->
+<!-- Publishing -->
+<Features2
+title="Customized Learning Experiences"
+tagline="Grow Your Skills"
+subtitle="I generate a variety of learning experiences that enable and empower essential skills. Contact me to discuss a speaking engagement, workshops or writing for your publication."
+  items={[
+    {
+      title: 'Workshops & Courses',
+      description: "Hands-on experience with systems design and the mindshift towards systems development.",
+      icon: 'workshop',
+    },
+    {
+      title: 'Publications',
+      description:
+        "I publish books, articles, resources and a weekly newsletter to help people navigate the complex world of systems.",
+      icon: 'publication',
+    },
+    {
+      title: 'Keynotes and Talks',
+      description:
+        'My first love was theater. I apply those skills to sharing new perspectives at community-of-practice events.',
+      icon: 'keynote',
+    },
+  ]}
+  actions={[
+    { variant: "primary", text: 'How Can I Help?', href: '/contact' },
+  ]},
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Features2>
+
+<!-- Newsletter Tout -->
+<Hero3
+    id='newsletter'
+    tagline="get the newsletter"
+    actions={[
+      { variant: 'primary', target: '_blank', text: "Subscribe Now", href: "https://architectingsystems.com/" },
+    ]}
+    image={{
+      src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1722945134/ae-email-header_yznvlq.png',
+      alt: 'Architecting Systems',
+    }}
+  >
+  <Fragment slot="title">
+    Design and Deliver <span class="text-accent dark:text-white highlight"
+    >Impactful Systems</span>
+  </Fragment>
+
+  <Fragment slot="subtitle">
+    <span class="hidden sm:inline">
+      <span class="font-semibold">Architecting Systems is the weekly publication for systems thinkers. Develop the skills you need to succeed in an increasingly-complex world. 
+  </Fragment>
+</Hero3>
+ 
+  <!-- Featured Posts  -->
 
   <BlogFeaturedPosts
     title="Read some writing ..."
-    information={`My blog includes personal essays, events, some videos and ... whatever I'm in the mood to create.
+    information={`The blog includes personal essays, events, some videos and ... whatever I'm in the mood to create.
                 `}
     linkText='Explore the blog'
   >
@@ -302,7 +299,7 @@ subtitle="I generate a variety of learning experiences that enable and empower e
     </Fragment>
   </BlogFeaturedPosts>
 
-<!-- Testimonials Widget *********** -->
+<!-- Testimonials -->
 
 <Testimonials
  title="Speaking from experience ..."
@@ -338,7 +335,6 @@ subtitle="I generate a variety of learning experiences that enable and empower e
 >
 </Testimonials>
 
-  
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
@@ -356,6 +352,10 @@ subtitle="I generate a variety of learning experiences that enable and empower e
 
     <Fragment slot="subtitle">
        Let's work together to improve skills and solve systems challenges.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </CallToAction>
 </Layout>

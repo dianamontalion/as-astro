@@ -182,7 +182,7 @@ export interface Disclaimer {
 
 // COMPONENTS
 export interface CallToAction extends Omit<HTMLAttributes<'a'>, 'slot'> {
-  variant?: 'primary' | 'secondary' | 'tertiary' | 'link';
+  variant?: 'primary' | 'secondary' | 'tertiary' | 'link' | 'button';
   text?: string;
   icon?: string;
   classes?: Record<string, string>;
@@ -245,6 +245,7 @@ export interface Features extends Omit<Headline, 'classes'>, Widget {
   image?: string | unknown;
   video?: Video;
   items?: Array<Item>;
+  actions?: Array<Actions>;
   columns?: number;
   defaultIcon?: string;
   callToAction1?: CallToAction;
