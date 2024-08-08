@@ -27,9 +27,13 @@ const metadata = {
   <Hero
     tagline="DIANA MONTALION"
     actions={[
-      { text: 'Learn more', href: '#features' },
+      { variant: "tertiary", icon: "brand-linkedin", text: "LinkedIn", href: "https://www.linkedin.com/in/dianamontalion/"},
+      { variant: "tertiary", icon: "brand-mastodon", text: "Fediverse", href: "https://hachyderm.io/@diana"},
+      { variant: "tertiary", icon: "brand-youtube", text: "Videos", href: "https://www.youtube.com/@dianamontalion"},
+      { variant: "tertiary", icon: "brand-bluesky", text: "Bluesky", href: "https://www.youtube.com/@dianamontalion"}, 
+      { variant: "tertiary", icon: "micro-blog", text: "MicroBlog", href: "https://blog.montalion.com"} 
     ]}
-    image={{ src: '~/assets/images/montalion-hero.png', alt: 'Diana Montalion Homepage' }}
+    image={{ src: '~/assets/images/montalion-hero.png', alt: 'Diana Montalion Homepage' }} 
   >
     <Fragment slot="title">
       <span class="text-accent dark:text-white highlight"> Systems Skills & Approaches</span><br />For an Increasingly Complex World
@@ -49,6 +53,8 @@ const metadata = {
    <BlogUpcomingPosts
    title="Upcoming Events"
    information={`I keynote at technology events, as well as develop onsite, remote and custom workshops. Here are some upcoming events.`}
+   linkText="View Upcoming Events"
+   linkUrl="category/events"
    >
    <Fragment slot="bg">
     <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -181,18 +187,18 @@ subtitle="I generate a variety of learning experiences that enable and empower e
     {
       title: 'Publications',
       description:
-        "My writing practice predates learning to code. I publish books, articles and a weekly newsletter to help people navigate the complex world of systems.",
+        "I publish books, articles and a weekly newsletter to help people navigate the complex world of systems.",
       icon: 'publication',
     },
     {
       title: 'Keynotes and Talks',
       description:
-        'My first love (and college major) was theater. I use those skills to bring new perspectives to community-of-practice events',
+        'My first love was theater. I use those skills to bring new perspectives to community-of-practice events.',
       icon: 'keynote',
     },
   ]}
   actions={[
-    { variant: "primary", text: 'How Can I Help?', href: 'https://mentrixgroup.com/how-can-we-help' },
+    { variant: "primary", text: 'How Can I Help?', href: '/contact' },
   ]},
 >
   <Fragment slot="bg">
@@ -286,11 +292,10 @@ subtitle="I generate a variety of learning experiences that enable and empower e
     <!-- Featured Posts Widget ******* -->
 
   <BlogFeaturedPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
+    title="Read some writing ..."
+    information={`My blog includes personal essays, events, some videos and ... whatever I'm in the mood to create.
                 `}
+    linkText='Explore the blog'
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -341,8 +346,7 @@ subtitle="I generate a variety of learning experiences that enable and empower e
       {
         variant: 'secondary',
         text: 'Get in Touch',
-        href: 'https://systemslibrary.com/',
-        target: '_blank',
+        href: '/contact',
       },
     ]}
   >

@@ -10,21 +10,20 @@ site:
 metadata:
   title:
     default: Diana Montalion
-    template: '%s — AstroWind'
   description: "\U0001F989 Systems skills, architecture, learning experiences and approaches for an increasingly complex world."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Diana Montalion
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/dm-logo.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@dianamontalion'
+    site: '@dianamontalion'
     cardType: summary_large_image
 
 i18n:
@@ -69,4 +68,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'light' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
