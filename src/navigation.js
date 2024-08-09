@@ -1,7 +1,7 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
-  links: [
+  links: { links: [
     {
       text: 'Home',
       href: '/'
@@ -22,11 +22,15 @@ export const headerData = {
       text: 'Events',
       href: getPermalink('events', 'category'),
     },
-  ],
+  ]},
   actions: [{variant: 'primary', text: 'Architecting Systems', href: 'https://architectingsystems.com/', target: '_blank' }],
+  isSticky: true,
+  showRssFeed: true, 
+  showToggleTheme: true,
 };
 
 export const footerData = {
+  links: [],
   secondaryLinks: [
     {
       text: 'Home',

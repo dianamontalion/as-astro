@@ -3,8 +3,10 @@ import Layout from '~/layouts/Layout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 import Announcement from '~/components/widgets/Announcement.astro';
+import { getPermalink } from '~/utils/permalinks';
+import { getBlogPermalink, } from '~/utils/permalinks';
 
-import { headerData, footerData } from '~/navigation';
+import { footerData } from '~/navigation';
 
 import type { MetaData } from '~/types';
 
@@ -13,6 +15,7 @@ export interface Props {
 }
 
 const { metadata } = Astro.props;
+
 ---
 
 <Layout metadata={metadata}>
@@ -20,7 +23,22 @@ const { metadata } = Astro.props;
     <Announcement />
   </slot>
   <slot name="header">
-    <Header {...headerData} isSticky showRssFeed showToggleTheme />
+    <Header links={[
+      { text: 'Home', href: '/' },
+      { text: 'Experience', href: '#experience' },
+      { text: 'Learning', href: '#learning' },
+      { text: 'Blog', href: getBlogPermalink() },
+      { text: 'Events', href: getPermalink('events', 'category'), },
+    ]}
+    actions={[
+      {
+        text: 'Hire me',
+        href: '#',
+      },
+    ]}
+    isSticky
+    showToggleTheme
+  />
   </slot>
   <main>
     <slot />
