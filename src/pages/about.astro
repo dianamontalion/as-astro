@@ -1,8 +1,9 @@
 ---
 import Hero from '~/components/widgets/Hero.astro';
-import Hero2 from '~/components/widgets/Hero2.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
+import BookTout from '~/components/widgets/BookTout.astro';
 import Layout from '~/layouts/PageLayout.astro';
+
 
 const metadata = {
   title: 'About Architecting Systems',
@@ -91,9 +92,9 @@ const metadata = {
     ]}
   />
 
-  <!-- Book Tout -->
-  <Hero2
-    id='book'
+    <!-- Book Tout -->
+    <BookTout
+    id='lst-book'
     tagline="New Book"
     actions={[
       { variant: 'primary', target: '_blank', text: "O'Reilly", href: 'https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/' },
@@ -104,18 +105,22 @@ const metadata = {
       alt: 'Learning Systems Thinking Book',
     }}
   >
-  <Fragment slot="title">
-    Essential <span class="text-accent dark:text-white highlight"
-    >Skills and Practices</span> for Software Professionals
-  </Fragment>
 
-  <Fragment slot="subtitle">
-    <span class="hidden sm:inline">
-      <span class="font-semibold">Welcome to the systems age, where software professionals are no longer building software—we are building systems of software</span>. In this world of increasing relational complexity, we need to think differently. <br /><br />This book shows you how systems thinking can guide you through the complexity of modern systems. Through a series of practices and real-world scenarios, you will learn to shift your perspective in order to design, develop, and deliver better outcomes.
-  </Fragment>
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
-   </Fragment>
-  </Hero2>
-  
+    <Fragment slot="title">
+      Essential <span class="text-accent dark:text-white highlight"
+      >Skills and Practices</span> for Software Professionals
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">Welcome to the systems age, where software professionals are no longer building software—we are building systems of software</span>. In this world of increasing relational complexity, we need to think differently. <br /><br />This book shows you how systems thinking can guide you through the complexity of modern systems. Through a series of practices and real-world scenarios, you will learn to shift your perspective in order to design, develop, and deliver better outcomes.
+      </span>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
+    </Fragment>
+  </BookTout>
+
+    
 </Layout>
