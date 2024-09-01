@@ -7,20 +7,16 @@ export const headerData = {
       href: '/'
     },
     {
-      text: 'Experience',
-      href: '#experience'
-    },
-    {
-      text: 'Learning',
-      href: '#learning'
-    },
-    {
-      text: 'Blog',
+      text: 'Recent Posts',
       href: getBlogPermalink()
     },
     {
       text: 'Events',
       href: getPermalink('events', 'category'),
+    },
+    {
+      text: 'About',
+      href: '/about'
     },
   ]},
   actions: [{variant: 'primary', text: 'Architecting Systems', href: 'https://architectingsystems.com/', target: '_blank' }],

@@ -1,19 +1,15 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
-import Hero from '~/components/widgets/Hero.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 import Hero3 from '~/components/widgets/Hero3.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogUpcomingPosts from '~/components/widgets/BlogUpcomingPosts.astro';
-import BlogFeaturedPosts from '~/components/widgets/BlogFeaturedPosts.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Subscribe from '~/components/widgets/Convertkit.astro';
 
 
 const metadata = {
-  title: 'Diana Montalion -- systems thinking and architecture skills for an increasingly complex world',
+  title: 'Architecting Systems -- systems thinking and architecture skills for an increasingly complex world',
   ignoreTitleTemplate: true,
 };
 ---
@@ -21,43 +17,43 @@ const metadata = {
 <Layout metadata={metadata}>
   
   <!-- Hero  -->
-  <Hero
-    tagline="DIANA MONTALION"
+  <Hero3
+    id='newsletter'
+    tagline="get the newsletter"
     actions={[
-      { variant: "tertiary", icon: "brand-linkedin", text: "LinkedIn", href: "https://www.linkedin.com/in/dianamontalion/"},
-      { variant: "tertiary", icon: "brand-mastodon", text: "Fediverse", href: "https://hachyderm.io/@diana"},
-      { variant: "tertiary", icon: "brand-youtube", text: "Videos", href: "https://www.youtube.com/@dianamontalion"},
-      { variant: "tertiary", icon: "brand-bluesky", text: "Bluesky", href: "https://www.youtube.com/@dianamontalion"}, 
-      { variant: "tertiary", icon: "micro-blog", text: "MicroBlog", href: "https://blog.montalion.com"},
-      { variant: "tertiary", icon: "as-logo", text: "Newsletter", href: "https://architectingsystems.com/"} 
+      { variant: 'primary', target: '_blank', text: "Subscribe Now", href: "#subscribe" },
     ]}
-    image={{ src: '~/assets/images/montalion-hero.png', alt: 'Diana Montalion Homepage' }} 
+    image={{
+      src: 'https://res.cloudinary.com/dceomfgwj/image/upload/t_square-fit/v1722945134/ae-email-header_yznvlq.png',
+      alt: 'Architecting Systems',
+    }}
   >
-    <Fragment slot="title">
-      <span class="text-accent dark:text-white highlight"> Systems Skills & Approaches</span><br />For an Increasingly Complex World
+  <Fragment slot="title">
+    Design and Deliver <span class="text-accent dark:text-white highlight"
+    >Impactful Systems</span>
+  </Fragment>
+
+  <Fragment slot="subtitle">
+    <span class="hidden sm:inline">
+      <span class="font-semibold">Architecting Systems is the weekly publication for systems thinkers. Develop the skills you need to succeed in an increasingly-complex world. 
+  </Fragment>
+</Hero3>
+
+  <!-- Latest Posts  -->
+  <BlogLatestPosts
+    title="Recent Editions"
+    information={`Read articles that are available to free subscribers
+                `}
+    linkText='See more'
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
     </Fragment>
+  </BlogLatestPosts>
 
-    <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        I help individuals, teams and organizations build impactful software systems. My passion is architecting technology, knowledge flows and learning experiences that generate emergent, effective information systems.
-      </span>
-    </Fragment>
-  </Hero>
+  <Subscribe id="subscribe"/>
 
-   <!-- Upcoming Events -->
-
-   <BlogUpcomingPosts
-   title="Upcoming Events"
-   information={`I keynote at technology events, as well as develop onsite, remote and custom workshops. Here are some upcoming events.`}
-   linkText="View Upcoming Events"
-   linkUrl="category/events"
-   >
-   <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-   </Fragment>
-  </BlogUpcomingPosts>
- 
-   <!-- Book Tout -->
+  <!-- Book Tout -->
   <Hero2
     id='book'
     tagline="New Book"
@@ -79,81 +75,15 @@ const metadata = {
     <span class="hidden sm:inline">
       <span class="font-semibold">Welcome to the systems age, where software professionals are no longer building software—we are building systems of software</span>. In this world of increasing relational complexity, we need to think differently. <br /><br />This book shows you how systems thinking can guide you through the complexity of modern systems. Through a series of practices and real-world scenarios, you will learn to shift your perspective in order to design, develop, and deliver better outcomes.
   </Fragment>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
+   </Fragment>
 </Hero2>
   
-<!-- Experience -->
-
-<Features2
-id="experience"
-title="Systems Architecture"
-tagline="Professional Experience"
-subtitle="As Mentrix founder and a systems architect, I take a systems-thinking approach to software development. Transform the flow and structure of information. Improve relationship patterns, in people and in software. Cultivate critical thinking skills. Build strong teams. Recommend changes that don't just fix -- they transform."
-  items={[
-    {
-      title: 'Design and Deliver an Innovative Platform',
-      description: "Build a team, an approach and a software system that changes the way people engage in digital discourse.",
-      icon: 'discourse',
-    },
-    {
-      title: 'Modernize a Legacy System',
-      description:
-        "Iteratively design and develop dataflows and software architectures that transform web pages, assets and machine learning into a knowledge system.",
-      icon: 'system',
-    },
-    {
-      title: 'Architect Knowledge',
-      description:
-        'Transform linear, reductionistic approaches to software delivery and instead, architect knowledge flow that generates a learning organization.',
-      icon: 'knowledge',
-    },
-    {
-      title: 'Create a Digital Gateway',
-      description:
-        "Keep a global consultancy connected to the world with digital experiences that replace in-person exchanges.",
-      icon: 'global',
-    },
-    {
-      title: 'Don’t Just Fix - Transform',
-      description:
-        'Through collaborative modeling, systemic reasoning and synthesizing disparate points of view — launch an initiative that iteratively transforms an aging software system into renewed competative advantage.',
-      icon: 'transform2',
-    },
-    {
-      title: 'Cultivate Systems Leadership',
-      description: 'Empower strong engineering teams that can leverage their knowledge and create sociotechnical outcomes that transcend expectations.',
-      icon: 'leadership',
-    },
-    {
-      title: 'Integrate Data Intelligently',
-      description: 'Architect a system that ensures that disparate information is available, to provide the right information, at the right time, to patients needing medical care.',
-      icon: 'recommend',
-    },
-    {
-      title: 'Recommend a Systems Strategy',
-      description:
-        'Recommend an approach to integrating disparate data sources that journalists world-wode depend on for accurate and timely information.',
-      icon: 'integrate',
-    },
-    {
-      title: 'Lead a Service-Driven Organization',
-      description: "Develop technology teams and architecture approaches that meet the unique needs and goals of clients.",
-      icon: 'service',
-    },
-  ]}
-  actions={[
-    { variant: "primary", text: 'Contact Mentrix', href: 'https://mentrixgroup.com/contact' },
-  ]},
->
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Features2>
-
    <!-- Systems School Stuff -->
 <Content
  isReversed
- tagline="more to explore"
- title="School of Systems"
+ tagline="school of systems"
  subtitle='Want to dive into learning, right now? Join the community of systems explorers.'
  id="learning"
  items={[
@@ -161,19 +91,19 @@ subtitle="As Mentrix founder and a systems architect, I take a systems-thinking 
      title: 'Learning Resources for Systems Thinkers',
      description:
        'Nonlinear skills, practices and approaches for technology professionals building knowledge systems. Recommend your favorites!',
-     icon: 'library',
+     icon: 'as-resources',
    },
    {
      title: 'Collections & Types',
      description:
        'Articles, talks, books, podcasts, courses and more ... organized by themes and practices that nourish and support systems thinking and design.',
-     icon: 'collection',
+     icon: 'as-collections',
    },
    {
      title: 'Discover Experts',
      description:
        'Browse resources published by systems experts and find more perspectives to support your learning practice.',
-     icon: 'expert',
+     icon: 'as-expert',
    },
  ]}
  image={{
@@ -187,8 +117,11 @@ subtitle="As Mentrix founder and a systems architect, I take a systems-thinking 
     icon: 'tabler:chevron-right',
   }}
 >
+<Fragment slot="title">
+  <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading text-accent">Join the Community</h3>
+</Fragment>
  <Fragment slot="content">
-   <h3 class="text-2xl font-bold tracking-tight text-accent dark:text-white sm:text-3xl mb-2">The Systems Library</h3>
+   <h3 class="text-2xl font-bold tracking-tight text-heading dark:text-white sm:text-3xl mb-2">The Systems Library</h3>
  </Fragment>
 </Content>
 
@@ -197,22 +130,23 @@ subtitle="As Mentrix founder and a systems architect, I take a systems-thinking 
  isAfterContent
  items={[
    {
-     title: 'Join the Community',
+     title: 'Contribute Your Insight',
+     class: 'text-accent',
      description:
        'Converse with other technologists faced with increasing complexity. We learn from each other while practicing the art and science of systems design.',
-     icon: 'community',
+     icon: 'as-community',
    },
    {
      title: 'Take Courses',
      description:
        'Courses on demand and real-time cohort courses that improve our skills and strengthen our practice.',
-     icon: 'course',
+     icon: 'as-course',
    },
    {
      title: 'Practice Together',
      description:
        'Informal groups to support a specific practice, like daily writing or pitching your ideas.',
-     icon: 'practice',
+     icon: 'as-practice',
    },
  ]}
  image={{
@@ -227,136 +161,21 @@ subtitle="As Mentrix founder and a systems architect, I take a systems-thinking 
 }}
 >
  <Fragment slot="content">
-   <h3 class="text-2xl font-bold text-accent tracking-tight dark:text-white sm:text-3xl mb-2"> SoftwareCrafters Collective</h3>
+   <h3 class="text-2xl font-bold text-heading tracking-tight dark:text-white sm:text-3xl mb-2"> SoftwareCrafters Collective</h3>
  </Fragment>
 </Content>
 
-<!-- Publishing -->
-<Features2
-title="Customized Learning Experiences"
-tagline="Grow Your Skills"
-subtitle="I generate a variety of learning experiences that enable and empower essential skills. Contact me to discuss a speaking engagement, workshops or writing for your publication."
-  items={[
-    {
-      title: 'Workshops & Courses',
-      description: "Hands-on experience with systems design and the mindshift towards systems development.",
-      icon: 'workshop',
-    },
-    {
-      title: 'Publications',
-      description:
-        "I publish books, articles, resources and a weekly newsletter to help people navigate the complex world of systems.",
-      icon: 'publication',
-    },
-    {
-      title: 'Keynotes and Talks',
-      description:
-        'My first love was theater. I apply those skills to sharing new perspectives at community-of-practice events.',
-      icon: 'keynote',
-    },
-  ]}
-  actions={[
-    { variant: "primary", text: 'How Can I Help?', href: '/contact' },
-  ]},
->
+  <!-- Upcoming Events -->
+
+  <BlogUpcomingPosts
+  title="Upcoming Events"
+  information={`I keynote at technology events, as well as develop onsite, remote and custom workshops. Here are some upcoming events.`}
+  linkText="View Upcoming Events"
+  linkUrl="category/events"
+  >
   <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+   <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
   </Fragment>
-</Features2>
+ </BlogUpcomingPosts>
 
-<!-- Newsletter Tout -->
-<Hero3
-    id='newsletter'
-    tagline="get the newsletter"
-    actions={[
-      { variant: 'primary', target: '_blank', text: "Subscribe Now", href: "https://architectingsystems.com/" },
-    ]}
-    image={{
-      src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1722945134/ae-email-header_yznvlq.png',
-      alt: 'Architecting Systems',
-    }}
-  >
-  <Fragment slot="title">
-    Design and Deliver <span class="text-accent dark:text-white highlight"
-    >Impactful Systems</span>
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    <span class="hidden sm:inline">
-      <span class="font-semibold">Architecting Systems is the weekly publication for systems thinkers. Develop the skills you need to succeed in an increasingly-complex world. 
-  </Fragment>
-</Hero3>
- 
-  <!-- Featured Posts  -->
-
-  <BlogFeaturedPosts
-    title="Read some writing ..."
-    information={`The blog includes personal essays, events, some videos and ... whatever I'm in the mood to create.
-                `}
-    linkText='Explore the blog'
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </BlogFeaturedPosts>
-
-<!-- Testimonials -->
-
-<Testimonials
- title="Speaking from experience ..."
- testimonials={[
-   {
-     testimonial: `Enjoyed Diana's workshop on Non-linear thinking: the workshop was well structured, very informative and gave me some insight in my own way of thinking. Diana is an enthusiastic host and really gets the people involved. I can easily recommend this workshop for anyone in the domain of software architecture and product management.`,
-     name: 'Willem Sander Huiskamp',
-     job: 'Software Architect',
-     image: {
-       src: '~/assets/images/willem.jpeg',
-       alt: 'Willem Image',
-     },
-   },
-   {
-     testimonial: `Diana is a highly talented architect and technologist who has the ability to understand and communicate complex interdependencies and bring alignment, direction and leadership. Diana has the ability to be effective at every level, be it while presenting to the executive through to being hands on with the team. Her enterprise architecture skills are second to none.`,
-     name: 'Mark Brincat',
-     job: 'CTO',
-     image: {
-       src: '~/assets/images/mb.jpeg',
-       alt: 'Mark Brincat Image',
-     },
-   },
-   {
-     testimonial: `We need to face the fact that modern software development is a complex endeavor that we can't fully control and plan. Diana does an exemplary job of giving us language and practices to help us improve our approaches.`,
-     name: 'Dr. Eduardo da Silva',
-     job: 'Independent Consultant on Sociotechnical Architecture Modernization',
-     image: {
-       src: '~/assets/images/eduardo.jpeg',
-       alt: 'Mark Wilkinson Image',
-     },
-   },
- ]}
->
-</Testimonials>
-
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[
-      {
-        variant: 'secondary',
-        text: 'Get in Touch',
-        href: '/contact',
-      },
-    ]}
-  >
-    <Fragment slot="title">
-      How Can I Help?
-    </Fragment>
-
-    <Fragment slot="subtitle">
-       Let's work together to improve skills and solve systems challenges.
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </CallToAction>
 </Layout>

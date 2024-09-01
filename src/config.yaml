@@ -1,6 +1,6 @@
 site:
-  name: Diana Montalion
-  site: 'https://montalion.com'
+  name: Architecting Systems
+  site: 'https://architectingsystems.com'
   base: '/'
   trailingSlash: false
 
@@ -9,15 +9,15 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Diana Montalion
-  description: "\U0001F989 Systems skills, architecture, learning experiences and approaches for an increasingly complex world."
+    default: Architecting Systems
+  description: "Think outside the software box -- design and deliver knowledge systems."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Diana Montalion
+    site_name: Architecting Systems
     images:
-      - url: '~/assets/images/dm-logo.png'
+      - url: '~/assets/images/Architecting-Systems-Banner.png'
         width: 1200
         height: 628
     type: website
@@ -33,7 +33,7 @@ i18n:
 apps:
   blog:
     isEnabled: true
-    postsPerPage: 6
+    postsPerPage: 12
 
     post:
       isEnabled: true
@@ -43,7 +43,7 @@ apps:
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: 'editions' # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
