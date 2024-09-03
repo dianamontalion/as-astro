@@ -4,9 +4,23 @@ slug: communication-patterns-decoupling
 date_published: 2022-12-22T16:37:00.000Z
 date_updated: 2024-07-28T23:12:30.000Z
 excerpt: Exploring how to draw boundaries around software parts. How do you figure out what to decouple from what?
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725387003/boundaries_jtzwru.jpg
+category: Systems Design
+tags:
+  - communication patterns
 ---
+> *Reducing coupling doesn’t necessarily reduce the risk of making a mistake when changing a single element. Reducing coupling reduces the number of elements changing at once and reduces the chances that you’ll miss one of the elements that need to change in sync.
+> -- Kent Beck*
 
-Each week, we share resources that help us think and act differently, as we move from software to systems (of software). Last week, we introduced an eight-edition series on communication patterns – navigating the gaps between software and systems.
+This series:
+- [Intro](/communication-patterns-intro)
+- **Decoupling**
+- [Integration](communication-patterns-integration)
+- [APIs](/communication-patterns-apis)
+- [Events](/communication-patterns-events)
+- [Streams](/communication-patterns-streams)
+
+Each week, we share resources that help us think and act differently, as we move from software to systems (of software). Last week, we introduced an six-edition series on communication patterns – navigating the gaps between software and systems.
 
 This week, we explore how to draw boundaries around software parts. How do you figure out what to decouple from what?
 
@@ -88,5 +102,4 @@ Requires an O'Reilly platform subscription (free trial available).
 
 [Learn](https://www.oreilly.com/library/view/oreilly-software-architecture/9781492050506/video324131.html)
 
-> *Reducing coupling doesn’t necessarily reduce the risk of making a mistake when changing a single element. Reducing coupling reduces the number of elements changing at once and reduces the chances that you’ll miss one of the elements that need to change in sync.
-> -- Kent Beck*
+

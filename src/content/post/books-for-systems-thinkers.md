@@ -1,15 +1,15 @@
 ---
 publishDate: 2022-12-12
 updateDate: 2022-12-12
+slug: books-for-systems-thinkers
 title: Books for Systems Thinkers
 excerpt: Books for systems thinkers shared in the Icelandic tradition.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1722622190/O_Reilly_DM_1_dghett.png
-category: Resources
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362714/Jolabokaflod_ntsa7e.jpg
+category: Knowledge Work
 tags:
-  - Resource Lists
-author: Diana Montalion
-------
+  - lists
 
+------
 As I type this, the winter holidays are approaching. Five years ago, I discovered the Icelandic book-loving tradition of Jólabókaflóðið, pronounced yo-la-bok-a-flot. Jolabokaflod roughly translates to Christmas Book Flood. The first English translation I read was “Jolly Book Flood”. I like that one.
 
 Jolly Book Flood began in Iceland after WWII. Every mid-November, the Bókatíðindi, (Book Bulletin) is sent to every Icelandic household. On Christmas eve, books are given as gifts and then read together, while drinking a holiday beverage. I can’t imagine a better celebration.

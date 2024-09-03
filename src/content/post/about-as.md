@@ -1,9 +1,10 @@
 ---
-title: About Architecting Systems
-slug: about
 date_published: 2024-07-14T12:00:42.000Z
 date_updated: 2024-08-04T14:51:47.000Z
+title: About Architecting Systems
+slug: about-as
 excerpt: Architecting Systems (AS) is an independent publication launched by Diana Montalion. Subscribers receive recommended resources and experiences for improving systems thinking and design.
+category: Info
 ---
 
 Architecting Systems (AS) is an independent publication launched by [Diana Montalion](https://montalion.com). Diana is systems architect, writer, speaker and knowledge flow deviser. She is also part of a growing and thriving community of systems thinkers who are working together to create better information and knowledge systems.

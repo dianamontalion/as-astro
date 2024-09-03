@@ -4,7 +4,18 @@ slug: communication-patterns-events
 date_published: 2023-01-31T15:06:00.000Z
 date_updated: 2024-07-28T23:14:08.000Z
 excerpt: Events are the way a system communication that something matterful has changed.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725387663/cp-events_htdrv3.png
+category: Systems Design
+tags:
+  - communication patterns
 ---
+This series:
+- [Intro](/communication-patterns-intro)
+- [Decoupling](/communication-patterns-decoupling)
+- [Integration](communication-patterns-integration)
+- [APIs](/communication-patterns-apis)
+- **Events**
+- [Streams](/communication-patterns-streams)
 
 In this series, we’ve decoupled parts of software and formed communicative relationships between them. This week, our focus is events – a system's communication that something matterful has changed.
 

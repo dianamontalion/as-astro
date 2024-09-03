@@ -1,12 +1,26 @@
 ---
-title: Communication Patterns - APIs
-slug: communication-patterns-apis
 date_published: 2023-01-13T14:04:00.000Z
 date_updated: 2024-07-28T23:13:39.000Z
+title: Communication Patterns - APIs
+slug: communication-patterns-apis
 excerpt: As complexity increases, more software parts act as a source of information -- with layers that govern communication.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725385240/json_vn9bwd.png
+category: Systems Design
+tags:
+  - communication patterns
 ---
+> *“It seems we’ve got a mental block when it comes to hypermedia in web APIs. This is a big problem, because hypermedia is the feature that makes a web API capable of handling changes gracefully.”
+> -- Leonard Richardson*
 
-In this series, we’ve explored [drawing boundaries](https://mentrixgroup.com/articles/communication-patterns-decoupling/) around software parts. We’ve discussed [integration patterns,](https://mentrixgroup.com/articles/communication-patterns-integration/) forming new relationships between decoupled parts. This week, we explore creating structure for the “sources” of information in a decoupled system. Specifically, how APIs can communicate information in a well-structured way.
+This series:
+- [Intro](/communication-patterns-intro)
+- [Decoupling](/communication-patterns-decoupling)
+- [Integration](communication-patterns-integration)
+- **APIs**
+- [Events](/communication-patterns-events)
+- [Streams](/communication-patterns-streams)
+
+In this series, we’ve explored drawing boundaries around software parts. We’ve discussed integration patterns forming new relationships between decoupled parts. This week, we explore creating structure for the “sources” of information in a decoupled system. Specifically, how APIs can communicate information in a well-structured way.
 
 Sources of information have layers; the software part itself, the logic that governs communication, the specific digital locations where communication happens (endpoints) and the information being shared. The layers that interface with consumers and govern communication with the application, are the API (application programming interface).
 
@@ -56,5 +70,4 @@ This bestselling Udemy course has 20K positive reviews and 100K students thus fa
 
 [Learn](https://www.udemy.com/course/rest-api-flask-and-python/)
 
-> *“It seems we’ve got a mental block when it comes to hypermedia in web APIs. This is a big problem, because hypermedia is the feature that makes a web API capable of handling changes gracefully.”
-> -- Leonard Richardson*
+

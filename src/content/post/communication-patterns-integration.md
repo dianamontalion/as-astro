@@ -4,7 +4,21 @@ slug: communication-patterns-integration
 date_published: 2023-01-06T17:43:00.000Z
 date_updated: 2024-07-28T23:13:10.000Z
 excerpt: Exploring patterns for forming new relationships between decoupled parts.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725388767/integration_rrj0fy.jpg
+category: Systems Design
+tags:
+  - communication patterns
 ---
+> Excessive complexity is nature’s punishment for organizations who are unable to make decisions.
+> *--* Gregor Hohpe
+
+This series:
+- [Intro](/communication-patterns-intro)
+- [Decoupling](/communication-patterns-decoupling)
+- **Integration**
+- [APIs](/communication-patterns-apis)
+- [Events](/communication-patterns-events)
+- [Streams](/communication-patterns-streams)
 
 Last week, we explored drawing boundaries around software parts. What is decoupling, why does it matter and what are some principles for attempting it? This week, we explore patterns and principles for forming new relationships between the (decoupled) parts.
 
@@ -66,5 +80,4 @@ If you want to get your hands dirty with some hard-core implementation of a few 
 
 [Learn](https://www.skillsoft.com/channel/data-integration-6d9c0e90-b293-11e7-a9da-49acecd508d2?technologyandversion=54746&amp;expertiselevel=54745)
 
-> Excessive complexity is nature’s punishment for organizations who are unable to make decisions.
-> *--* Gregor Hohpe
+

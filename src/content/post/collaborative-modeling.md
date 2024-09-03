@@ -1,60 +1,66 @@
 ---
-publishDate: 2024-08-06
-author: Diana Montalion
+date_published: 2022-11-25T16:41:00.000Z
+date_updated: 2024-08-14T16:35:54.000Z
+slug: collaborative-modeling
 title: Collaborative Modeling
-excerpt: Redo excerpt
-image: https://res.cloudinary.com/dceomfgwj/image/upload/t_Logos DM/v1723074929/Socrates_DE_elukk6.png
-category: Modeling
-tags:
-  - approaches
+excerpt: Deep schisms in a system's functional architecture appear when people can't create shared understanding. Collaborative modeling helps.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362714/collab-modeling_zmstw9.jpg
+category: Systems Design
+tags: 
+  - modeling
 ---
-> *Just remember: there is no such thing as a microservice. The microservice architecture is an architectural style that structures an application (a.k.a. system) as a set of loosely coupled services.
-> ― Chris Richardson*
+>_A team may be doing great work in isolation and still mess up the system._
+>_-- Eduardo da Silva_
 
-Many teams are moving inexorably away from monolithic software. While the phrase “monolith” has taken on a negative connotation, there’s nothing inherently wrong with monolithic software. The word describes a codebase that is self-contained and mostly independent.
+In his book _The Mythical Man Month_, Fred Brooks says that **conceptual integrity** is the most important consideration in system design. This is common sense. You can’t deliver a systemic change together if you can’t conceptualize and discuss it.
 
-Increasingly, we use the word monolith or legacy to mean a Big Ball of Mud, a codebase that is difficult to change, it's capabilities are set in stone. The popular solution is application modernization, which usually involves microservices.
+Understanding a system, as a whole and in parts, informs (ideally) how we act. This understanding arises from abstraction as well as code. Not everyone speaks code. When we look at a system strictly through the prism of its technological toolset, we distort our understanding of it.
 
-If circumstances haven’t changed much, legacy software doesn’t necessarily need modernization. When it does, organizations sometimes imagine a Big Lift and Shift Transformation. But that’s not how modernization works.
+A technology system is like the parable of the blind men and the elephant. Six blind men are touching the elephant. The man touching the side says “an elephant is like a wall!” The man touching the trunk says “an elephant is a type of snake!” The ears are like a fan. The tail is like a rope. A system is the _integration_ of these concepts and experiences.
 
-Moving from monolith to microservices (smaller, containerized applications) is an incremental decoupling of capabilities. Most of the time, microservices are brought online *in relationship* to the current (monolithic) software. Microservices are self-contained and independent, like monolithic software, but unlike monoliths, they depend on **well-designed relationships with other software**. Relationships replace the capabilities that were previously housed wholly inside the monolith.
+Brooks goes on to say that ideally, conceptual integrity is maintained by one person, or a small group of like minds. Perhaps this is true, but as complexity increases, this is often not possible. Or ideal – one person can become the cognitive bias through which decisions flow and are skewed.
 
-Microservices are easier to change and evolve … unless they are tightly coupled. In a monolith, information is always available to all the code. Microservices have access to only the information they need, only when they need it. Redesigning the structure and flow of data is critical to loose coupling. When we modernize, we rearchitect space and time in our system.
+**Deep schisms in the system’s functional architecture open when people are speaking different languages to describe it**. The "wall" people talk business and the "snake" people talk infrastructure and the "fan" people talk marketing tools and the "rope" people deliver code. How do you create conceptual integrity between the wall and the snake and the fan and the rope as the software system, and the world around it, changes?
 
-The most difficult aspect of architecting microservices isn’t Kafka, Kubernetes, Docker or learning GoLang. (Though those skills are challenging!) The most difficult part is changing the way teams, and the organization, think about software. Teams need to adapt to new patterns and surrender those that don’t fit the new paradigm. For example, teams unwilling to let go of database transactions (as essential) will create very complicated microservices implementations.
+Enter collaborative modeling. Whenever two or more people are gathered, use modeling to make the elephant visible. Modeling together can help reveal disparities that are hidden behind the cloak of language.
 
-Microservices rely on pattern thinking. Which often means transforming a linear software delivery approach into an adaptive, learning-driven approach. Otherwise, teams can't help but build a Distributed Monolith In the Cloud.
+Lack of shared mental models is also a barrier to understanding. Opening a Miro board or pulling out yellow sticky notes can be the fastest and most effective way to create shared insight. While people involved are agreeing on the shape and flow of activities in a system, they are also agreeing on what to call them. And they are cultivating significant-enough shared understanding to seed further discussions and decision making.
 
-How do we reconsider and adopt the patterns, in the technology and in the people, that support microservices? What guides our decision making? Where do we begin?
+Where do you begin?
 
-Here are some resources for diving into these questions. They’ll help us explore the patterns, perils and pitfalls while developing the thinking skills needed.
+The domain-driven design (DDD) community has made a concerted effort to bring collaborative modeling out into the world. This edition isn’t about DDD specifically, but most of the teachers here are part of that community. Their success depends on modeling things effectively and impactfully with others. So they’ve practiced.
 
-### [Microservices Patterns](https://bookshop.org/a/86792/9781617294549)
+## Learning Domain-Driven Design: Aligning Software Architecture and Business Strategy
 
-by Chris Richardson
+by Vlad Khononov
 
-A comprehensive overview of the challenges teams face when moving to microservices, with industry-tested solutions to these problems.
+I’ve used exercises from this book three times, in situations where our group was stuck. In all cases, we got unstuck and enjoyed the process. This book is easy to read, friendly, straightforward and a deceptively powerful approach.
 
-### [Monolith to Microservices](https://bookshop.org/a/86792/9781492047841)
+[Read](https://bookshop.org/a/86792/9781098100131)
 
-by Sam Newman
+## Visual and Collaborative Modelling
 
-This practical guide, with many insightful patterns, is a companion to  [Building Microservices](https://bookshop.org/a/86792/9781492034025) .
+by Kenny Baas-Schwegler
 
-### [Architektur-Migration (nicht nur) zu Microservices (German)](https://www.youtube.com/watch?v=zFzNe2MTg6Y)
+This is a delightful talk about why collaborative modeling matters and how to approach it. Kenny is an excellent teacher and facilitator, making the process both effective and enjoyable.
 
-by Eberhard Wolff
+[Watch](https://www.youtube.com/watch?v=5RrEzJM5bdw)
 
-The architectures of many systems are suboptimal. Eberhard advises teams moving from monolith to microservices. In this episode, we discuss the typical procedure for such migrations and the challenges that arise. (In German)
+## Facilitating Collaborative Design Decisions
 
-### [Seven Ways to Fail at Microservices](https://www.infoq.com/podcasts/seven-ways-failing-microservices/)
+with Kenny Baas-Schwegler, Gien Verschatse,and Evelyn Van Kelle
 
-hosted by Thomas Betts
+This team is literally writing the book on Collaborative Modeling. (Watch for it in further editions!)
 
-Implementing microservices is really challenging and there are many ways to fail. **Holly Cummins** has identified seven ways to fail at microservices. Thomas Betts asks her to describe them and how they can be avoided.
+[Listen](https://www.youtube.com/watch?v=p3sSX529Zec)
 
-### [Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/)
+## Essential DDD Virtual Workshop
 
-taught by Stephen Grider
+**February 2023**
 
-This comprehensive course includes building with high-value technology tools. It goes deeper than most courses into the more challenging aspects.
+taught by Paul Rayner
+
+Paul was my collaborative modeling mentor. He taught me how to structure a process. He also showed me how to be a helpful presence when a group thinks together.
+
+[Learn](https://ti.to/EDDD/essential-ddd-virtual-workshop-feb-2023)
+

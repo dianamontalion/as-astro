@@ -4,7 +4,21 @@ slug: communication-patterns-intro
 date_published: 2022-12-15T21:22:00.000Z
 date_updated: 2024-07-28T23:12:02.000Z
 excerpt: As we move from software to systems of software, time and relationship is where complexity increases at breakneck speed.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725388894/comm-patterns_yc4ihw.jpg
+category: Systems Design
+tags:
+  - communication patterns
 ---
+> *Objects that interact in a distributed system need to**be dealt with in ways that are intrinsically different**from objects that interact in a single address space*.
+> *-- Jim Waldo, Gordon McKay Professor of the Practice of Computer Science at Harvard*
+
+This series:
+- **Intro**
+- [Decoupling](/communication-patterns-decoupling)
+- [Integration](communication-patterns-integration)
+- [APIs](/communication-patterns-apis)
+- [Events](/communication-patterns-events)
+- [Streams](/communication-patterns-streams)
 
 Software development requires thinking about time and relationships. If a program interacts with a database, we’ve created relational timing. Under X circumstances, at Y time, one part of the system will communicate with another part and get Z information. Perhaps we hook into an event to do a query. Perhaps we save a bit of data in the cache for a more ubiquitous use. Perhaps we mix information from an external API with local data. Perhaps we schedule asynchronous activities.
 
@@ -66,5 +80,4 @@ A tasty little morsel of a starter course on thinking in events.
 
 [Learn](https://developer.confluent.io/learn-kafka/event-sourcing/event-driven-vs-state-based/)
 
-> *Objects that interact in a distributed system need to**be dealt with in ways that are intrinsically different**from objects that interact in a single address space*.
-> *-- Jim Waldo, Gordon McKay Professor of the Practice of Computer Science at Harvard*
+

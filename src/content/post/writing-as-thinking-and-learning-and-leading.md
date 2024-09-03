@@ -2,10 +2,10 @@
 publishDate: 2022-12-01
 title: Writing as Thinking and Learning and Leading
 excerpt: Writing practices help us think and learn and lead. Writing hones essential skills for knowledge workers.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1722622190/O_Reilly_DM_1_dghett.png
-category: FS2S
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362714/writing-as-thinking-nl_gc8kxm.jpg
+category: Metacognition
 tags: 
-  - Thinking Practices
+  - thinking
 author: Diana Montalion
 ---
 

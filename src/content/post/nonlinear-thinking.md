@@ -4,8 +4,11 @@ slug: nonlinear-thinking
 date_published: 2023-10-27T12:00:00.000Z
 date_updated: 2024-08-14T18:04:08.000Z
 excerpt: Exploring nonlinear thinking and approaches from experienced systems thinkers working inside, and outside, technology. 
-tags: 
-  - Systems Thinking
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362715/nonlinear-thinking_oh00ym.jpg
+category: Systems Thinking
+tags:
+  - intro
+  - thinking
 ---
 
 > “The true system, the real system, is our present construction of systematic thought itself, rationality itself, and if a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory. If a revolution destroys a government, but the systematic patterns of thought that produced that government are left intact, then those patterns will repeat themselves. . . . There’s so much talk about the system. And so little understanding. ” 

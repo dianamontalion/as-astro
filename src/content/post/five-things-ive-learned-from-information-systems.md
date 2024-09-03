@@ -1,8 +1,11 @@
 ---
 publishDate: 2024-08-14
 title: Five Things I Have Learned from Information Systems
-tags: 
-  - Systems Thinking
+excerpt: After nearly 20 years, here are five things I’ve learned about (information) systems.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362715/MyFiveThings_qf8aka.png
+category: Systems Thinking
+tags:
+  - lists
 ---
 > *It is not the amount of knowledge that makes a brain. It is not even the distribution of knowledge. It is the interconnectedness. 
 > ― James Gleick, The Information*

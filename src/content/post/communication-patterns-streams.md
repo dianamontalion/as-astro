@@ -4,7 +4,21 @@ slug: communication-patterns-streams
 date_published: 2023-02-07T16:57:00.000Z
 date_updated: 2024-07-28T23:14:33.000Z
 excerpt: Where once there were events, now there are flows of data published continuously.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725385240/json_vn9bwd.png
+category: Systems Design
+tags:
+  - communication patterns
 ---
+> *“Event-driven architecture gives you this shared language to help have those conversations [between business and technology]. You can go to people in your business and say: "What are the important events? What are the things that happen in the world, in the business, that have a big influence that we need to publish [and] have an ongoing record of?”
+> -- Gwen Shapira*
+
+This series:
+- [Intro](/communication-patterns-intro)
+- [Decoupling](/communication-patterns-decoupling)
+- [Integration](communication-patterns-integration)
+- [APIs](/communication-patterns-apis)
+- [Events](/communication-patterns-events)
+- **Streams**
 
 Ten years ago, this series would have ended last week, with software communicating with other software using event messages. The communication of those events might happen every week, day, hour, five minutes, or whenever a relevant action happens, like Publish(ing) new content. Varying amounts of information are shared (or not) when the event message is sent.
 
@@ -64,5 +78,3 @@ A series of courses from Confluent Developer that explore the basics of streamin
 
 [Learn](https://developer.confluent.io/learn-kafka/apache-kafka/events/)
 
-> *“Event-driven architecture gives you this shared language to help have those conversations [between business and technology]. You can go to people in your business and say: "What are the important events? What are the things that happen in the world, in the business, that have a big influence that we need to publish [and] have an ongoing record of?”
-> -- Gwen Shapira*

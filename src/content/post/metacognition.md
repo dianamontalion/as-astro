@@ -3,9 +3,11 @@ title: Metacognition
 slug: metacognition
 date_published: 2022-11-03T18:08:00.000Z
 date_updated: 2024-08-14T16:37:50.000Z
-excerpt: If you want to change what you deploy, you first need to change how you think. You can not change your thinking if you aren't aware of your thinking. 
+excerpt: If you want to change what you deploy, you first need to change how you think. You can not change your thinking if you aren't aware of your thinking.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362714/metacognition_zbvjqy.jpg
+category: Metacognition
 tags: 
-  - Thinking Practices
+  - thinking
 ---
 
 > *“***You do not rise to the level of your goals, you fall to the level of your systems**.”
