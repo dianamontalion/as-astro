@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-12-28
 title: Redesigning Digital Information
-slug: redesigning-digital-informations
+slug: redesigning-digital-information
 excerpt: Information designed to fit software logic must now be restructured to serve emergent consumer logic.
 image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725437128/information_kmp4yr.jpg
 category: Systems Design
