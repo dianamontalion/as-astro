@@ -1,11 +1,12 @@
 ---
+publishDate: 2023-03-14
 title: Communication Patterns - Intro
 slug: communication-patterns-intro
 date_published: 2022-12-15T21:22:00.000Z
 date_updated: 2024-07-28T23:12:02.000Z
 excerpt: As we move from software to systems of software, time and relationship is where complexity increases at breakneck speed.
 image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725388894/comm-patterns_yc4ihw.jpg
-category: Systems Design
+category: Featured
 tags:
   - communication patterns
 ---
@@ -26,7 +27,7 @@ As we move from single-instance software to systems of software, time and relati
 
 Once we know what we’re building, we can take a course or read a book, put our hands in and figure it out. Unfortunately, the “know what we’re building” part is the hard part.
 
-Designing emergent relationships requires new types of pattern thinking. Software thinking doesn’t always translate into systems thinking. When you change time and relationship, you shift the paradigm.
+Designing emergent relationships requires new types of pattern thinking. Software thinking doesn’t always translate into systems thinking. When you change time and relationship, you shift the paradigm. This series, *[Communication Patterns](/topics/communication-patterns)* explores some of these shifts.
 
 Systems require a lot more cross-functional communication. Good relationships between software parts depends on good thinking between people. **As we move from software to systems, our skillset expands in many directions at once.**
 

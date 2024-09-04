@@ -1,4 +1,5 @@
 ---
+publishDate: 2023-07-14
 title: Communication Patterns - Events
 slug: communication-patterns-events
 date_published: 2023-01-31T15:06:00.000Z

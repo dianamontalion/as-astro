@@ -1,10 +1,16 @@
 ---
+publishDate: 2023-12-28
 title: Redesigning Digital Information
-slug: redesigning-digital-information
-date_published: 2023-03-07T20:25:00.000Z
-date_updated: 2024-07-28T23:16:30.000Z
+slug: redesigning-digital-informations
 excerpt: Information designed to fit software logic must now be restructured to serve emergent consumer logic.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725437128/information_kmp4yr.jpg
+category: Systems Design
+tags:
+  - knowledge flow
 ---
+> *Information is a source of learning. But unless it is organized, processed, and available to the right people in a format for decision making, it is a burden, not a benefit.
+> 
+> -- William Pollard*
 
 When *The Economist* envisioned their digital presence, they imagined a weekly print magazine readable via a web browser. In print, an article might span a few pages but digitally, one article equals one page. Wikipedia imagined a digital encyclopedia where every subject, from Albert Einstein to high five, was an editable web page. The home page of the New York Times was the digital translation of front-page news.
 
@@ -66,8 +72,4 @@ This is the most essential practice. This newsletter is a good example! What you
 
 [Take a Look](https://gist.github.com/dianamontalion/407257dd553b7fac97eefb3f8f98afed)
 
-​
 
-> *Information is a source of learning. But unless it is organized, processed, and available to the right people in a format for decision making, it is a burden, not a benefit.
-> 
-> -- William Pollard*

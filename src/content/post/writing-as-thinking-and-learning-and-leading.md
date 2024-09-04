@@ -1,12 +1,11 @@
 ---
-publishDate: 2022-12-01
+publishDate: 2023-02-14
 title: Writing as Thinking and Learning and Leading
 excerpt: Writing practices help us think and learn and lead. Writing hones essential skills for knowledge workers.
 image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362714/writing-as-thinking-nl_gc8kxm.jpg
 category: Metacognition
 tags: 
   - thinking
-author: Diana Montalion
 ---
 
 > **Writing is thinking. To write well is to think clearly. That's why it's so hard.** 

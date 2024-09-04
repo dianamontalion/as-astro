@@ -1,6 +1,5 @@
 ---
-date_published: 2022-11-25T16:41:00.000Z
-date_updated: 2024-08-14T16:35:54.000Z
+publishDate: 2023-01-14
 slug: collaborative-modeling
 title: Collaborative Modeling
 excerpt: Deep schisms in a system's functional architecture appear when people can't create shared understanding. Collaborative modeling helps.

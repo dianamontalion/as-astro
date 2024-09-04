@@ -1,12 +1,25 @@
 ---
+publishDate: 2024-07-28
 title: Learning to Respond - Integrity
 slug: learning-to-respond-integrity
-date_published: 2023-05-18T17:48:00.000Z
-date_updated: 2024-07-28T23:51:41.000Z
 excerpt: As a systems architect, my primary objective is to recommend changes that have conceptual integrity.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725439150/integrity_x7zlxq.jpg
+category: Metacognition
+tags:
+  - learning to respond
 ---
+> *I am more convinced than ever. Conceptual integrity is central to product quality.― Fred Brooks*
 
-In this series, Learning to Respond, we are exploring integral practices needed to craft sound responses to other people’s thinking. Our eventual goal is to deliver system-level recommendations backed by strong, cohesive reasons.
+#### This series:
+- [Noticing Our Reactions](learning-to-respond-noticing-our-reactions)
+- [Logical Fallacies](learning-to-respond-logical-fallacies)
+- [Start With Why](learning-to-respond-start-with-why)
+- [Intuition](learning-to-respond-intuition-2)
+- [Inference](learning-to-respond-inference)
+- **Integration**
+- [Synthesize](learning-to-respond-synthesize)
+
+In this series, *[Learning to Respond](/topics/learning-to-respond)*, we are exploring integral practices needed to craft sound responses to other people’s thinking. Our eventual goal is to deliver system-level recommendations backed by strong, cohesive reasons.
 
 Last week, we focused on inference. This week, we’ll talk about integration.
 
@@ -86,4 +99,4 @@ by Stefan Hofer, Henning Schwentner
 
 ---
 
-*I am more convinced than ever. Conceptual integrity is central to product quality.― Fred Brooks*
+

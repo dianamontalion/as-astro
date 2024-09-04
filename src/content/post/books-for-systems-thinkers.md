@@ -1,11 +1,10 @@
 ---
-publishDate: 2022-12-12
-updateDate: 2022-12-12
+publishDate: 2023-12-12
 slug: books-for-systems-thinkers
 title: Books for Systems Thinkers
 excerpt: Books for systems thinkers shared in the Icelandic tradition.
 image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362714/Jolabokaflod_ntsa7e.jpg
-category: Knowledge Work
+category: Featured
 tags:
   - lists
 

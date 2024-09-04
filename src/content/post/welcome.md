@@ -1,16 +1,11 @@
 ---
-publishDate: 2024-07-14T12:00:41.000Z
+publishDate: 2026-07-14T12:00:41.000Z
 title: Welcome
 excerpt: Architecting Systems is not (just) a newsletter -- it's a digital ecosystem of systems thinking tools and practices.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1722622190/O_Reilly_DM_1_dghett.png
-author: Diana Montalion
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725437578/welcome_cqoclg.jpg
 category: Info
-tags: 
-  - subscribers
 ---
-
-
-
+Architecting Systems (AS) is an independent publication launched by [Diana Montalion](https://montalion.com). Diana is systems architect, writer, speaker and knowledge flow deviser. She is also part of a growing community of systems thinkers who are working together to create better information and knowledge systems. You'll meet them too!
 
 *From Software to Systems* and *Learning Systems Thinking* ... are now combined and relaunched as ***Architecting Systems***. You won't be getting (just) a newsletter, you'll have access to a digital ecosystem of systems thinking tools and practices.
 
@@ -24,7 +19,7 @@ You also join a growing community of professionals who are figuring out how to d
 
 ### **Subscribers have free access to:**
 
-- [​**ArchitectingSystems.com**​](__GHOST_URL__/): Each newsletter will also be published to the web. As a subscriber, you can Sign In to post feedback and recommend topics of interest. (You can also subscribe via RSS.)
+- ​**ArchitectingSystems.com: Each newsletter will also be published to here. As a subscriber, you can read it online anytime. (You can also subscribe via RSS.)
 - [​**Systems Library**​](https://systemslibrary.com/): A growing collection of resources and experts. You can [​submit recommendations​](https://systemslibrary.com/submit-a-resource) for inclusion.
 - [​**SoftwareCrafters Collective**​](https://mentrix.systems/): If you haven't already signed up, jump in! SCC is a new community of practice, offering workshops, courses, cohorts, and practice groups.
 - Discounts on upcoming books, workshops and events.

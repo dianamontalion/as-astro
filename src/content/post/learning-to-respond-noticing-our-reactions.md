@@ -1,12 +1,26 @@
 ---
+publishDate: 2024-02-28
 title: Learning to Respond - Noticing our Reactions
 slug: learning-to-respond-noticing-our-reactions
-date_published: 2023-04-04T19:21:00.000Z
-date_updated: 2024-07-28T23:17:18.000Z
 excerpt: Learning to respond is an essential systems-thinking skill. It begins with noticing our reactions.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725440620/reaction_x8guy5.jpg
+category: Featured
+tags:
+  - learning to respond
 ---
+> *“There is no separation of mind and emotions; emotions, thinking and learning are all linked."
+> -- Eric Jensen*
 
-In this new series, *Learning to Respond*, we will explore crafting sound and justified thinking. We begin today by becoming aware of our reactions.
+#### This series:
+- **Noticing Our Reactions**
+- [Logical Fallacies](learning-to-respond-logical-fallacies)
+- [Start With Why](learning-to-respond-start-with-why)
+- [Intuition](learning-to-respond-intuition-2)
+- [Inference](learning-to-respond-inference)
+- [Integration](learning-to-respond-integrity)
+- [Synthesize](learning-to-respond-synthesize)
+
+In this new series, *[Learning to Respond](/topics/learning-to-respond)*, we will explore crafting sound and justified thinking. We begin today by becoming aware of our reactions.
 
 Constructing recommendations with other people is an essential systems design skill. Unfortunately, when we engage with other people’s thinking, we tend to react rather than respond. Reacting is a mental and/or emotional contraction, a pulling back rather than leaning into understanding. Reacting encourages circuitous discourse and endless bikeshedding. Reacting invites fallacious logic and cognitive biases.
 
@@ -116,5 +130,4 @@ Honestly, just watching the introduction made me feel more relaxed. Yes, this co
 
 [Learn](https://www.udemy.com/course/emotional-intelligence-at-work-master-your-emotions/)
 
-> *“There is no separation of mind and emotions; emotions, thinking and learning are all linked."
-> -- Eric Jensen*
+

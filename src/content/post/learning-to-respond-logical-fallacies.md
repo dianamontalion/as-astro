@@ -1,10 +1,24 @@
 ---
-publishDate: 2023-04-12T16:37:00.000Z
-updateDate: 2024-07-28T23:17:59.000Z
+publishDate: 2024-03-28
 title: Learning to Respond - Logical Fallacies
 slug: learning-to-respond-logical-fallacies
 excerpt: As knowledge workers, we rely on reasoning to recommend an action and build things. A logical fallacy is a flaw in reasoning.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725439384/logical-fallacies_aogptu.jpg
+category: Metacognition
+tags:
+  - learning to respond
 ---
+> *The first principle is that you must not fool yourself and you are the easiest person to fool. -- Richard P. Feynman*
+
+#### This series:
+- [Noticing Our Reactions](learning-to-respond-noticing-our-reactions)
+- **Logical Fallacies**
+- [Start With Why](learning-to-respond-start-with-why)
+- [Intuition](learning-to-respond-intuition-2)
+- [Inference](learning-to-respond-inference)
+- [Integration](learning-to-respond-integrity)
+- [Synthesize](learning-to-respond-synthesize)
+
 As knowledge workers, we rely on reasoning. We employ mostly-linear reasoning to incrementally build software. Using programming languages, we construct a demonstrable behavior change. We test our logic as we build, is it sound? Does this variable contain what I meant it to contain? Does this FOR loop generate the intended logic?
 
 Reasoning also builds knowledge outside of the code. We craft recommendations using systematic reasoning and informal logic. For example, when we advocate for an improvement in our deployment workflow, we don’t simply say “We should move to continuous deployment because it’s better.”
@@ -123,4 +137,4 @@ This course has a good introduction to argumentation (informal reasoning) that's
 
 [Learn](https://classicalu.com/courses/essential-logic-the-logical-fallacies/lessons/logical-fallacies-introduction/)
 
-> The first principle is that you must not fool yourself and you are the easiest person to fool. -- **Richard P. Feynman**_
+

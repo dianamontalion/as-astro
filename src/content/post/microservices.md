@@ -1,10 +1,13 @@
 ---
+publishDate: 2022-12-14
 title: Microservices
 slug: microservices
-date_published: 2022-11-17T16:37:00.000Z
-date_updated: 2024-07-28T23:10:15.000Z
 excerpt: Moving from monolith to microservices is an incremental decoupling of capabilities. And a mindshift from code thinking to designing well-architected relationships.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436909/microservices_chpv1r.jpg
+category: Systems Design
 ---
+> *Just remember: there is no such thing as a microservice. The microservice architecture is an architectural style that structures an application (a.k.a. system) as a set of loosely coupled services.
+> ― Chris Richardson*
 
 Many teams are moving inexorably away from monolithic software. While the phrase “monolith” has taken on a negative connotation, there’s nothing inherently wrong with monolithic software. The word describes a codebase that is self-contained and mostly independent.
 
@@ -64,5 +67,4 @@ This comprehensive course includes building with high-value technology tools. It
 
 [Learn](https://www.udemy.com/course/microservices-with-node-js-and-react/)
 
-> *Just remember: there is no such thing as a microservice. The microservice architecture is an architectural style that structures an application (a.k.a. system) as a set of loosely coupled services.
-> ― Chris Richardson*
+

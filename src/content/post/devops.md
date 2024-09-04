@@ -1,10 +1,15 @@
 ---
+publishDate: 2022-11-14
 title: DevOps
 slug: devops
-date_published: 2022-11-10T05:00:00.000Z
-date_updated: 2024-07-29T10:32:39.000Zs
 excerpt: DevOps is a restructuring of the way an organization thinks, behaves and cross-functionally delivers software.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436175/devops_b2izt7.jpg
+category: Systems Design
+tags:
+  - processes
 ---
+> DevOps is not a goal, but a never-ending process of continual improvement.
+> -- Jez Humble
 
 Once upon a time, there were software developers and IT operations teams. The boundary between them was often concrete and antagonistic. Ops people were incentivized to keep things stable while devs were incentivized to push new features. As software became systems (of software), this dualistic mindset was a blocker. Also, linear “code release” workflows didn’t meet the needs of emerging interrelated software and spin-up-spin-down infrastructures to support it.
 
@@ -56,5 +61,4 @@ The skills and practices needed vary and there are a lot of great trainings avai
 
 [Learn](https://acloudguru.com/learning-paths/devops)
 
-> DevOps is not a goal, but a never-ending process of continual improvement.
-> -- Jez Humble
+

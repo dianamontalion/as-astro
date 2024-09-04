@@ -1,12 +1,25 @@
 ---
+publishDate: 2024-06-28
 title: Learning to Respond - Inference
 slug: learning-to-respond-inference
-date_published: 2023-05-09T18:24:00.000Z
-date_updated: 2024-07-28T23:53:08.000Z
 excerpt: Inference helps us build bridges between from one sound idea to another.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725438935/inference_th2ut6.jpg
+category: Metacognition
+tags:
+  - learning to respond
 ---
+> *The greatest progress that the human race has made lies in learning how to make correct inferences. ― Friedrich Nietzsche*
 
-In this *Learning to Respond* series, we are on a journey from sharing reactive opinions and ideas to crafting sound, cohesive responses and recommendations. Meanwhile, I am on a seven-week journey, teaching at conferences in the EU. While I’m traveling, we’ll explore tasty tidbits of integral skills needed to create conceptual integrity.
+#### This series:
+- [Noticing Our Reactions](learning-to-respond-noticing-our-reactions)
+- [Logical Fallacies](learning-to-respond-logical-fallacies)
+- [Start With Why](learning-to-respond-start-with-why)
+- [Intuition](learning-to-respond-intuition-2)
+- **Inference**
+- [Integration](learning-to-respond-integrity)
+- [Synthesize](learning-to-respond-synthesize)
+
+In this *[Learning to Respond](/topics/learning-to-respond)* series, we are on a journey from sharing reactive opinions and ideas to crafting sound, cohesive responses and recommendations. Meanwhile, I am on a seven-week journey, teaching at conferences in the EU. While I’m traveling, we’ll explore tasty tidbits of integral skills needed to create conceptual integrity.
 
 “I will contend that conceptual integrity is the most important consideration in system design. It is better to have a system omit certain anomalous features and improvements … than to have one that contains many good but independent and uncoordinated ideas.” ― Frederick P. Brooks Jr., The Mythical Man-Month: Essays on Software Engineering
 
@@ -109,5 +122,3 @@ There are “many good but uncoordinated ideas” when there is a lack of infere
 Next week, we’ll take the next step beyond inference (ideas that follow) towards integration (ideas that can blend together).
 
 ---
-
-*The greatest progress that the human race has made lies in learning how to make correct inferences. ― Friedrich Nietzsche*

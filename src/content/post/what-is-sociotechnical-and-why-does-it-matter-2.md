@@ -1,10 +1,15 @@
 ---
-title: What is Sociotechnical and Why Does it Matter
+publishDate: 2023-09-14
+title: What is Sociotechnical and Why Does it Matter?
 slug: what-is-sociotechnical-and-why-does-it-matter-2
-date_published: 2023-02-14T14:48:00.000Z
-date_updated: 2024-07-28T23:15:07.000Z
-excerpt: We build technology by developing the people who can design, deliver and maintain that technology.
+excerpt: We build technology by developing the people who can design, deliver and maintain that technology
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725442367/sociotechnical_lm0uvq.jpg
+category: Systems Thinking
+tags:
+  - sociotechnical
 ---
+> *“There is no ‘disembodied’ technical system; it is inevitably joined to a social system because software is written by people for people and the ICT industry needs to be educated to handle that dimension as well as the technical one.*"
+> *-- Trond Hjorteland*
 
 When we talk about tech, we usually talk about the software (or infrastructure) itself. Do we need Kubernetes? Is Vue better than React? At conferences, speakers show us how to design microservices or Kafka topics. Case studies tell us how an event-driven, cloud-native architecture helped an organization meet its goals.
 
@@ -64,5 +69,4 @@ A 2-day workshop on open sociotechnical systems design, which prioritizes people
 
 [Learn](https://up-ward.co/labs/intentional-architecture)
 
-> *“There is no ‘disembodied’ technical system; it is inevitably joined to a social system because software is written by people for people and the ICT industry needs to be educated to handle that dimension as well as the technical one.*"
-> *-- Trond Hjorteland*
+

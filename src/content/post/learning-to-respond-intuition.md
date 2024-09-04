@@ -1,10 +1,23 @@
 ---
+publishDate: 2024-05-28
 title: Learning to Respond - Intuition
 slug: learning-to-respond-intuition-2
-date_published: 2023-04-26T13:52:00.000Z
-date_updated: 2024-07-28T23:55:10.000Z
 excerpt: Intuition, a critical systems skill, is listening to your experienced unconscious.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725439245/intuition_zkk9uh.jpg
+category: Metacognition
+tags:
+  - learning to respond
 ---
+> *Don't let the noise of other's opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. ― Steve Jobs*
+
+#### This series:
+- [Noticing Our Reactions](learning-to-respond-noticing-our-reactions)
+- [Logical Fallacies](learning-to-respond-logical-fallacies)
+- [Start With Why](learning-to-respond-start-with-why)
+- **Intuition**
+- [Inference](learning-to-respond-inference)
+- [Integration](learning-to-respond-integrity)
+- [Synthesize](learning-to-respond-synthesize)
 
 In this series, we’ve taken a journey from noticing our reactions to challenges toward crafting a sound response. Before we begin building a response, we’ll take the often-needed leap: intuition.
 
@@ -98,6 +111,3 @@ by Daniel Kahneman
 
 [Read](https://bookshop.org/a/86792/9780374533557)
 
----
-
-*Don't let the noise of other's opinions drown out your own inner voice. And most important, have the courage to follow your heart and intuition. ― Steve Jobs*

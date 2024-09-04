@@ -1,4 +1,5 @@
 ---
+publishDate: 2023-04-14
 title: Communication Patterns - Decoupling
 slug: communication-patterns-decoupling
 date_published: 2022-12-22T16:37:00.000Z

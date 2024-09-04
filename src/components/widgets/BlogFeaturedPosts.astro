@@ -1,8 +1,6 @@
 ---
 import { APP_BLOG } from 'astrowind:config';
-
 import Grid from '~/components/blog/Grid.astro';
-
 import { getBlogPermalink } from '~/utils/permalinks';
 import { findFeaturedPosts } from '~/utils/blog';
 import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
@@ -19,7 +17,7 @@ export interface Props extends Widget {
 
 const {
   title = await Astro.slots.render('title'),
-  linkText = 'View all upcoming events',
+  linkText = 'Featured',
   linkUrl = getBlogPermalink(),
   information = await Astro.slots.render('information'),
   count = 4,

@@ -1,10 +1,16 @@
 ---
 title: Making Time for Thinking
 slug: making-time-for-thinking
-date_published: 2023-03-21T18:27:00.000Z
-date_updated: 2024-07-28T23:16:54.000Z
+date_published: 2024-01-21T18:27:00.000Z
+date_updated: 2024-01-28T23:16:54.000Z
 excerpt: Power and control can be nice to have but what we need most is … time to think.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436780/time-to-think_ktbcwo.jpg
+category: Featured
+tags:
+ - thinking
 ---
+> *“Human beings, it seems, are at their best when immersed deeply in something challenging."
+> -- Cal Newport*
 
 As we move toward thinking together about a system of interrelated software, the conceptual load can become overwhelming. The question I’m asked most often is “what about the cognitive load?” People feel exhausted, as if they can never do enough, and constantly frustrated by the rising demand for ever-more skill development. How do we know when there’s just too much complexity?
 
@@ -78,5 +84,4 @@ This course is taught once per year. Join the waiting list to join the next coho
 
 [Learn](https://www.top-performer-course.com/)
 
-> *“Human beings, it seems, are at their best when immersed deeply in something challenging."
-> -- Cal Newport*
+

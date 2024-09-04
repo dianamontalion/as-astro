@@ -1,11 +1,25 @@
 ---
-title: Learning to Respond - How to Respond
-slug: learning-to-respond-how-to-respond
-date_published: 1970-01-01T00:00:00.000Z
-date_updated: 2024-07-28T23:52:16.000Z
+publishDate: 2024-08-28
+title: Learning to Respond - Synthesize
+slug: learning-to-respond-synthesize
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725441060/synthesize_c4jhaw.jpg
+excerpt: Creating a trustworthy response depends on synthesizing knowledge, expertise and sound reasons.
+category: Metacognition
+tags:
+  - learning to respond
 ---
+> *The cure for a fallacious argument is a better argument, not the suppression of ideas. ― Carl Sagan*
 
-After a brief pause for travel (including workshops at [Codecamp](https://dddeurope.com/), [NewCrafts ](https://ncrafts.io/)and [DDD Europe](https://dddeurope.com/)), we are wrapping up our Learning to Respond series. This week we will create a response, next week we will strengthen the reasons that support it.
+#### This series:
+- [Noticing Our Reactions](learning-to-respond-noticing-our-reactions)
+- [Logical Fallacies](learning-to-respond-logical-fallacies)
+- [Start With Why](learning-to-respond-start-with-why)
+- [Intuition](learning-to-respond-intuition-2)
+- [Inference](learning-to-respond-inference)
+- [Integration](learning-to-respond-integrity)
+- **Synthesize**
+
+After a brief pause for travel (including workshops at [Codecamp](https://dddeurope.com/), [NewCrafts ](https://ncrafts.io/)and [DDD Europe](https://dddeurope.com/)), we are wrapping up our Learning to Respond series. Creating a trustworthy response depends on synthesizing knowledge, expertise and sound reasons.
 
 When someone shares a solution in a meeting, the first thought that comes to your mind is (usually) your opinion. Do I like this? Do I agree? Is this right (aka does it feel right)? Does it match my ideas about what is good?
 
@@ -87,6 +101,3 @@ Simply doing the work to engage your mental models will help you think better wi
 
 [Learn](https://fs.blog/mental-models-for-better-thinking-course/)
 
----
-
-*The cure for a fallacious argument is a better argument, not the suppression of ideas. ― Carl Sagan*

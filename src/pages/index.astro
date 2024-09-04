@@ -1,15 +1,16 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero2 from '~/components/widgets/Hero2.astro';
 import Hero3 from '~/components/widgets/Hero3.astro';
+import BookTout from '~/components/widgets/BookTout.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogUpcomingPosts from '~/components/widgets/BlogUpcomingPosts.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import BlogFeaturedPosts from '~/components/widgets/BlogFeaturedPosts.astro';
 import Subscribe from '~/components/widgets/Convertkit.astro';
 
 
 const metadata = {
-  title: 'Architecting Systems -- systems thinking and architecture skills for an increasingly complex world',
+  title: 'Architecting Systems -- Systems Thinking and Architecture Skills for an Increasingly Complex World',
   ignoreTitleTemplate: true,
 };
 ---
@@ -40,6 +41,22 @@ const metadata = {
 </Hero3>
 
   <!-- Latest Posts  -->
+  <BlogFeaturedPosts
+    title="Featured Posts"
+    information={`Read articles to get a feel for Architecting Systems`}
+    linkText='Find more'
+    count="6"
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
+    </Fragment>
+  </BlogFeaturedPosts>
+
+  <!-- subscription form -->
+  <Subscribe id="subscribe"/>
+
+
+  <!-- Latest Posts  -->
   <BlogLatestPosts
     title="Recent Editions"
     information={`Read articles that are available to free subscribers`}
@@ -50,35 +67,6 @@ const metadata = {
       <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
     </Fragment>
   </BlogLatestPosts>
-
-  <Subscribe id="subscribe"/>
-
-  <!-- Book Tout -->
-  <Hero2
-    id='book'
-    tagline="New Book"
-    actions={[
-      { variant: 'primary', target: '_blank', text: "O'Reilly", href: 'https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/' },
-      { text: 'Bookshop', href: 'https://bookshop.org/a/86792/9781098151331' },
-    ]}
-    image={{
-      src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1723207780/lst-book-cover_xstqq8.jpg',
-      alt: 'Learning Systems Thinking Book',
-    }}
-  >
-  <Fragment slot="title">
-    Essential <span class="text-accent dark:text-white highlight"
-    >Skills and Practices</span> for Software Professionals
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    <span class="hidden sm:inline">
-      <span class="font-semibold">Welcome to the systems age, where software professionals are no longer building software—we are building systems of software</span>. In this world of increasing relational complexity, we need to think differently. <br /><br />This book shows you how systems thinking can guide you through the complexity of modern systems. Through a series of practices and real-world scenarios, you will learn to shift your perspective in order to design, develop, and deliver better outcomes.
-  </Fragment>
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
-   </Fragment>
-</Hero2>
   
    <!-- Systems School Stuff -->
 <Content
@@ -165,6 +153,36 @@ const metadata = {
  </Fragment>
 </Content>
 
+<!-- Book Tout -->
+<BookTout
+id='lst-book'
+tagline="New Book"
+actions={[
+  { variant: 'primary', target: '_blank', text: "O'Reilly", href: 'https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/' },
+  { text: 'Bookshop', href: 'https://bookshop.org/a/86792/9781098151331' },
+]}
+image={{
+  src: 'https://res.cloudinary.com/dceomfgwj/image/upload/v1723207780/lst-book-cover_xstqq8.jpg',
+  alt: 'Learning Systems Thinking Book',
+}}
+>
+
+<Fragment slot="title">
+  Essential <span class="text-accent dark:text-white highlight"
+  >Skills and Practices</span> for Software Professionals
+</Fragment>
+
+<Fragment slot="subtitle">
+  <span class="hidden sm:inline">
+    <span class="font-semibold">Welcome to the systems age, where software professionals are no longer building software—we are building systems of software</span>. In this world of increasing relational complexity, we need to think differently. <br /><br />This book shows you how systems thinking can guide you through the complexity of modern systems. Through a series of practices and real-world scenarios, you will learn to shift your perspective in order to design, develop, and deliver better outcomes.
+  </span>
+</Fragment>
+
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
+</Fragment>
+</BookTout>
+
   <!-- Upcoming Events -->
 
   <BlogUpcomingPosts
@@ -173,9 +191,6 @@ const metadata = {
   linkText="View Upcoming Events"
   linkUrl="category/events"
   >
-  <Fragment slot="bg">
-   <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
-  </Fragment>
  </BlogUpcomingPosts>
 
 </Layout>

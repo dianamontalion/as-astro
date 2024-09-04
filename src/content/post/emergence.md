@@ -1,10 +1,15 @@
 ---
+publishDate: 2023-11-28
 title: Emergence
 slug: emergence
-date_published: 2023-02-28T18:38:00.000Z
-date_updated: 2024-07-28T23:15:57.000Z
 excerpt: Emergence is a process, the ways simple interactions among individual parts form more-complex behaviors and patterns.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436545/emergence_zcvv6z.jpg
+category: Featured
+tags:
+  - patterns
 ---
+> *“The phenomenon of emergence takes place at critical points of instability that arise from fluctuations in the environment, amplified by feedback loops.*"
+> *-- Fritjof Capra*
 
 Emergence is difficult to discuss because it hides behind our usual ways of thinking. Emergence is a process, the ways simple interactions among individual parts form more-complex behaviors and patterns. These behaviors and patterns can't be reduced to the individual parts -- they arise because parts are together in an environment. Emergence is nonlinear. No concrete, easily-reproducible steps lead to it and yet, over time, it happens.
 
@@ -90,5 +95,4 @@ A good overall introduction to the vocabulary.
 
 [Learn](https://www.udemy.com/course/emergence/)
 
-> *“The phenomenon of emergence takes place at critical points of instability that arise from fluctuations in the environment, amplified by feedback loops.*"
-> *-- Fritjof Capra*
+

@@ -1,10 +1,24 @@
 ---
+publishDate: 2024-04-28
 title: Learning to Respond - Start with Why
 slug: learning-to-respond-start-with-why
-date_published: 2023-04-18T14:23:00.000Z
-date_updated: 2024-07-28T23:18:31.000Z
 excerpt: Start with why to avoid erroneous leaps in logic and recommend matterful technology change.
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725440793/why_stglic.jpg
+category: Metacognition
+tags:
+  - learning to respond
 ---
+> “You don't hire for skills, you hire for attitude. You can always teach skills_.*”*
+> -- Simon Sinek
+
+#### This series:
+- [Noticing Our Reactions](learning-to-respond-noticing-our-reactions)
+- [Logical Fallacies](learning-to-respond-logical-fallacies)
+- **Start With Why**
+- [Intuition](learning-to-respond-intuition-2)
+- [Inference](learning-to-respond-inference)
+- [Integration](learning-to-respond-integrity)
+- [Synthesize](learning-to-respond-synthesize)
 
 In this series, we’ve noticed our reactions to other people’s thinking and how they lead us into endless, circuitous discussions. Our reactions rarely get us what we need. Practicing self-awareness is a helpful first step, learning to drop those reactions when we can.
 
@@ -55,5 +69,4 @@ A snippet from one of the most popular Ted talks, this video is a quick lesson i
 
 [Watch](https://www.youtube.com/watch?v=tK4HNPCVt2k)
 
-> “You don't hire for skills, you hire for attitude. You can always teach skills_.*”*
-> -- Simon Sinek
+
