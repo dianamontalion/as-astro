@@ -54,6 +54,6 @@ export const footerData = {
     { ariaLabel: 'Bluesky', icon: 'tabler:brand-bluesky', href: 'https://bsky.app/profile/mentrix.bsky.social' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://mentrixgroup.com/"> Diana Montalion</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://mentrixgroup.com/"> Mentrix Group</a> · All rights reserved.
   `,
 };

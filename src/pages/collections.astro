@@ -1,0 +1,77 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import ItemGrid2 from '~/components/ui/ItemGrid2.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import { fetchPosts } from '~/utils/blog';
+
+const allPosts = await fetchPosts();
+
+const allTopics = new Set();
+const allCats = new Set();
+
+interface Category {
+  title: string;
+  slug: string;
+  preface: string;
+}
+
+let catData: Category[] = [];
+
+allPosts.map(post => {
+    post.tags && post.tags.map(tag => {allTopics.add(tag.title)
+    });
+});
+
+allTopics.forEach((cat) => {
+    catData.push({
+      title: cat,
+      slug: `/topics/${generateSlug(cat)}`,
+    });
+  });
+
+allPosts.map(post => { 
+    post.category.title && allCats.add(post.category.title)
+});
+
+allCats.forEach((cat) => {
+    catData.push({
+      title: cat,
+      slug: `/category/${generateSlug(cat)}`,
+    });
+  });
+
+  console.log(catData);
+for (const cat of catData) {
+    //console.log(cat);
+}
+
+export function generateSlug(string) {
+  return string
+    .toString()
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
+}
+
+const columns = 4;
+---
+<Layout>
+    <HeroText tagline="Explore by themes" title="Collections" />
+    <WidgetWrapper id='collections' containerClass='max-w-7xl mx-auto'>
+    <ItemGrid2
+    items={catData}
+    columns={columns}
+    classes={{
+      container: 'gap-4 md:gap-6',
+      panel:
+        'rounded-lg shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur border border-[#ffffff29] bg-white dark:bg-slate-900 p-6',
+      icon: 'w-12 h-12 mb-6 text-primary',
+    }}
+    />
+</WidgetWrapper>
+</Layout>
