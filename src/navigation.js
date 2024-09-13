@@ -33,7 +33,7 @@ export const footerData = {
       href: '/'
     },
     {
-      text: 'Blog',
+      text: 'All Posts',
       href: getBlogPermalink()
     },
     {
@@ -41,8 +41,12 @@ export const footerData = {
       href: getPermalink('events', 'category'),
     },
     {
-      text: 'Contact',
-      href: getPermalink('/contact'),
+      text: 'Collections',
+      href: getPermalink('/collections'),
+     },
+     {
+      text: 'About',
+      href: getPermalink('/about'),
      },
     
   ],
