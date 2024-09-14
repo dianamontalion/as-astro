@@ -3,7 +3,7 @@ publishDate: 2024-09-14
 author: Diana Montalion
 title: Architecture isn't Kubernetes -- wJaxDE
 excerpt: Architecture, in the systems age, is not (just) Kubernetes. It is is designing relationships between parts (people and tech parts) then adapting those relationship patterns as circumstances change.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1722797961/WJAX24-logo_u384kh.svg
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1726330440/W-JAX_t8qalb.png
 category: Events
 tags:
   - keynote

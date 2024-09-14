@@ -3,7 +3,7 @@ publishDate: 2024-08-06
 author: Diana Montalion
 title: Systems Architecture Live Experience -- SAG
 excerpt: Welcome to MAGO! MAGO is the most-read magazine and digital product producer in the world. Today is your first day as an architect. Welcome architect! You were hired just in time -- a crisis is looming. You and your teammates will create a recommendation … what will MAGO do next?
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1722796771/SAG-Logo-transparent_isfrdh.png
+image: https://res.cloudinary.com/dceomfgwj/image/upload/v1726330417/SAG_b1s8aa.png
 category: Events
 tags:
   - workshop
