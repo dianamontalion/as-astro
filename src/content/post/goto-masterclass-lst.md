@@ -28,7 +28,7 @@ We’ll explore:
 
 We will work together on a systems challenge where there is no "right" answer, only the answers we can craft using systems thinking practices.
 
-## [Join In!](https://gotocph.com/2024/register?selected_masterclass=464)
+## <span style="text-align: center;">[Join In!](https://gotocph.com/2024/register?selected_masterclass=464)</span>
 
 
 Source: [https://gotocph.com/2024/masterclasses/464/2-days-learning-systems-thinking](https://gotocph.com/2024/masterclasses/464/2-days-learning-systems-thinking)
