@@ -2,7 +2,7 @@
 publishDate: 2024-09-14
 author: Diana Montalion
 title: Architecture is Designing Knowledge Flow -- SAG
-excerpt: "In the tech industry, we are most interested in knowledge stock: What do you know? This focus is holding many individuals, teams and organizations back. As relational complexity increases, individual knowledge stock is insufficient. What we need is knowledge flow. The ability to craft and share knowledge in ways that enable the best possible decisions, under the circumstances, in the midst of change."
+excerpt: "In the tech industry, we are most interested in knowledge stock: What do you know? This focus is holding many individuals, teams and organizations back. As relational complexity increases, individual knowledge stock is insufficient. What we need is knowledge flow."
 image: https://res.cloudinary.com/dceomfgwj/image/upload/v1726327719/sag-lineup_y7z6pd.jpg
 category: Events
 tags:
