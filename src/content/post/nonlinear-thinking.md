@@ -5,7 +5,7 @@ slug: nonlinear-thinking
 date_published: 2023-10-27T12:00:00.000Z
 date_updated: 2024-08-14T18:04:08.000Z
 excerpt: Exploring nonlinear thinking and approaches from experienced systems thinkers working inside, and outside, technology. 
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362715/nonlinear-thinking_oh00ym.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725362715/nonlinear-thinking_oh00ym.jpg
 category: Featured
 tags:
   - intro

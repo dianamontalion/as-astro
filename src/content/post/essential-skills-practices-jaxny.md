@@ -3,7 +3,7 @@ publishDate: 2024-09-14
 author: Diana Montalion
 title: Essential Non-linear Skills and Practices for Software Professionals -- JaxNY
 excerpt: In this workshop, you’ll understand how interrelated and interdependent parts (in people and software) act together to create patterns Through hands-on exercises and a real-world scenario, you'll  You’ll learn to create conceptual models to guide impactful decisions.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1726325388/jax-workshop_esc9td.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1726325388/jax-workshop_esc9td.jpg
 category: Events
 tags:
   - workshop

@@ -3,7 +3,7 @@ publishDate: 2024-02-28
 title: Learning to Respond - Noticing our Reactions
 slug: learning-to-respond-noticing-our-reactions
 excerpt: Learning to respond is an essential systems-thinking skill. It begins with noticing our reactions.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725440620/reaction_x8guy5.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725440620/reaction_x8guy5.jpg
 category: Featured
 tags:
   - learning to respond

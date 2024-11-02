@@ -3,7 +3,7 @@ publishDate: 2024-08-01
 author: Diana Montalion
 title: Learning Systems Thinking -- O'Reilly
 excerpt: 3-hour workshop teaching essential nonlinear skills for software professionals.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1722622190/O_Reilly_DM_1_dghett.png
+image: https://res.cloudinary.com/mentrix/image/upload/v1722622190/O_Reilly_DM_1_dghett.png
 category: Events
 tags:
   - workshop

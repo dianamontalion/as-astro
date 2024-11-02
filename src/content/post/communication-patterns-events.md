@@ -5,7 +5,7 @@ slug: communication-patterns-events
 date_published: 2023-01-31T15:06:00.000Z
 date_updated: 2024-07-28T23:14:08.000Z
 excerpt: Events are the way a system communication that something matterful has changed.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725387663/cp-events_htdrv3.png
+image: https://res.cloudinary.com/mentrix/image/upload/v1725387663/cp-events_htdrv3.png
 category: Systems Design
 tags:
   - communication patterns

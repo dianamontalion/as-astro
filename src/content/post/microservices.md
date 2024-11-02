@@ -3,7 +3,7 @@ publishDate: 2022-12-14
 title: Microservices
 slug: microservices
 excerpt: Moving from monolith to microservices is an incremental decoupling of capabilities. And a mindshift from code thinking to designing well-architected relationships.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436909/microservices_chpv1r.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725436909/microservices_chpv1r.jpg
 category: Systems Design
 ---
 > *Just remember: there is no such thing as a microservice. The microservice architecture is an architectural style that structures an application (a.k.a. system) as a set of loosely coupled services.

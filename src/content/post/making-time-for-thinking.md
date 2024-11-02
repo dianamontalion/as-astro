@@ -4,7 +4,7 @@ slug: making-time-for-thinking
 date_published: 2024-01-21T18:27:00.000Z
 date_updated: 2024-01-28T23:16:54.000Z
 excerpt: Power and control can be nice to have but what we need most is … time to think.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436780/time-to-think_ktbcwo.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725436780/time-to-think_ktbcwo.jpg
 category: Featured
 tags:
  - thinking

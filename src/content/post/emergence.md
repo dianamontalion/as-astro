@@ -3,7 +3,7 @@ publishDate: 2023-11-28
 title: Emergence
 slug: emergence
 excerpt: Emergence is a process, the ways simple interactions among individual parts form more-complex behaviors and patterns.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436545/emergence_zcvv6z.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725436545/emergence_zcvv6z.jpg
 category: Featured
 tags:
   - patterns

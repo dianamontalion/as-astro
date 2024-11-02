@@ -3,7 +3,7 @@ publishDate: 2023-09-14
 title: What is Sociotechnical and Why Does it Matter?
 slug: what-is-sociotechnical-and-why-does-it-matter-2
 excerpt: We build technology by developing the people who can design, deliver and maintain that technology
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725442367/sociotechnical_lm0uvq.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725442367/sociotechnical_lm0uvq.jpg
 category: Systems Thinking
 tags:
   - sociotechnical

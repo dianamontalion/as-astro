@@ -2,7 +2,7 @@
 publishDate: 2023-10-14
 title: Five Things I Have Learned from Information Systems
 excerpt: After nearly 20 years, here are five things I’ve learned about (information) systems.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362715/MyFiveThings_qf8aka.png
+image: https://res.cloudinary.com/mentrix/image/upload/v1725362715/MyFiveThings_qf8aka.png
 category: Systems Thinking
 tags:
   - lists

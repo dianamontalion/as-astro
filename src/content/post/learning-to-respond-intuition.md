@@ -3,7 +3,7 @@ publishDate: 2024-05-28
 title: Learning to Respond - Intuition
 slug: learning-to-respond-intuition-2
 excerpt: Intuition, a critical systems skill, is listening to your experienced unconscious.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725439245/intuition_zkk9uh.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725439245/intuition_zkk9uh.jpg
 category: Metacognition
 tags:
   - learning to respond

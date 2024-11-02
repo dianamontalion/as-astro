@@ -5,7 +5,7 @@ slug: communication-patterns-decoupling
 date_published: 2022-12-22T16:37:00.000Z
 date_updated: 2024-07-28T23:12:30.000Z
 excerpt: Exploring how to draw boundaries around software parts. How do you figure out what to decouple from what?
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725387003/boundaries_jtzwru.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725387003/boundaries_jtzwru.jpg
 category: Systems Design
 tags:
   - communication patterns

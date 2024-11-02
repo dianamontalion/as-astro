@@ -3,7 +3,7 @@ publishDate: 2024-03-28
 title: Learning to Respond - Logical Fallacies
 slug: learning-to-respond-logical-fallacies
 excerpt: As knowledge workers, we rely on reasoning to recommend an action and build things. A logical fallacy is a flaw in reasoning.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725439384/logical-fallacies_aogptu.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725439384/logical-fallacies_aogptu.jpg
 category: Metacognition
 tags:
   - learning to respond

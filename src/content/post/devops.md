@@ -3,7 +3,7 @@ publishDate: 2022-11-14
 title: DevOps
 slug: devops
 excerpt: DevOps is a restructuring of the way an organization thinks, behaves and cross-functionally delivers software.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725436175/devops_b2izt7.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725436175/devops_b2izt7.jpg
 category: Systems Design
 tags:
   - processes

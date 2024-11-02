@@ -5,7 +5,7 @@ slug: communication-patterns-intro
 date_published: 2022-12-15T21:22:00.000Z
 date_updated: 2024-07-28T23:12:02.000Z
 excerpt: As we move from software to systems of software, time and relationship is where complexity increases at breakneck speed.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725388894/comm-patterns_yc4ihw.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725388894/comm-patterns_yc4ihw.jpg
 category: Featured
 tags:
   - communication patterns

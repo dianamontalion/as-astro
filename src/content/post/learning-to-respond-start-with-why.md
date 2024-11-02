@@ -3,7 +3,7 @@ publishDate: 2024-04-28
 title: Learning to Respond - Start with Why
 slug: learning-to-respond-start-with-why
 excerpt: Start with why to avoid erroneous leaps in logic and recommend matterful technology change.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725440793/why_stglic.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725440793/why_stglic.jpg
 category: Metacognition
 tags:
   - learning to respond

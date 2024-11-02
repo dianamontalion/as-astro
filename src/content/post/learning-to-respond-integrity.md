@@ -3,7 +3,7 @@ publishDate: 2024-07-28
 title: Learning to Respond - Integrity
 slug: learning-to-respond-integrity
 excerpt: As a systems architect, my primary objective is to recommend changes that have conceptual integrity.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725439150/integrity_x7zlxq.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725439150/integrity_x7zlxq.jpg
 category: Metacognition
 tags:
   - learning to respond

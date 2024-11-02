@@ -3,7 +3,7 @@ publishDate: 2024-08-06
 author: Diana Montalion
 title: Intro to Systems Thinking -- SoCraTes
 excerpt: Training Day precedes the Open Space event in Germany and the UK. Hands-on workshop that expands your capacity to do difficult things in a relationally-complex world.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/t_Logos DM/v1723074929/Socrates_DE_elukk6.png
+image: https://res.cloudinary.com/mentrix/image/upload/t_Logos DM/v1723074929/Socrates_DE_elukk6.png
 category: Events
 tags:
   - workshop

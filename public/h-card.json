@@ -5,8 +5,8 @@
         "properties": {
           "name": ["Architecting Systems"],
           "url": ["https://architectingsystems.com/"],
-          "photo": ["https://res.cloudinary.com/dceomfgwj/image/upload/v1726125242/as-logo_bjzthu.png"],
-          "featured": ["https://res.cloudinary.com/dceomfgwj/image/upload/v1722945134/ae-email-header_yznvlq.png"]
+          "photo": ["https://res.cloudinary.com/mentrix/image/upload/v1726125242/as-logo_bjzthu.png"],
+          "featured": ["https://res.cloudinary.com/mentrix/image/upload/v1722945134/ae-email-header_yznvlq.png"]
         }
       }
     ]

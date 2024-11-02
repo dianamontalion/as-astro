@@ -3,7 +3,7 @@ publishDate: 2023-05-14
 title: Communication Patterns - Integration
 slug: communication-patterns-integration
 excerpt: Exploring patterns for forming new relationships between decoupled parts.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725388767/integration_rrj0fy.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725388767/integration_rrj0fy.jpg
 category: Systems Design
 tags:
   - communication patterns

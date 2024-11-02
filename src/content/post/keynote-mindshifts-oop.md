@@ -3,7 +3,7 @@ publishDate: 2024-09-12
 author: Diana Montalion
 title: "Mindshifts: Thriving in the Systems Age -- OOP"
 excerpt: In my lifetime, we have experienced the equivalent of 20,000 years of change. Nonlinear change. In many respects, we are the architects of change, yet we seem to do the same things again and again, expecting different results.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1726330672/oop-logo_lcwcru.png
+image: https://res.cloudinary.com/mentrix/image/upload/v1726330672/oop-logo_lcwcru.png
 category: Events
 tags:
   - keynote

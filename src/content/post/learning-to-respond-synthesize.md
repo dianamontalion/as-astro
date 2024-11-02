@@ -2,7 +2,7 @@
 publishDate: 2024-08-28
 title: Learning to Respond - Synthesize
 slug: learning-to-respond-synthesize
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725441060/synthesize_c4jhaw.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725441060/synthesize_c4jhaw.jpg
 excerpt: Creating a trustworthy response depends on synthesizing knowledge, expertise and sound reasons.
 category: Metacognition
 tags:

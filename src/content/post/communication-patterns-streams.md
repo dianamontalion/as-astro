@@ -3,7 +3,7 @@ publishDate: 2023-08-14
 title: Communication Patterns - Streams
 slug: communication-patterns-streams
 excerpt: Where once there were events, now there are flows of data published continuously.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725385240/json_vn9bwd.png
+image: https://res.cloudinary.com/mentrix/image/upload/v1725385240/json_vn9bwd.png
 category: Systems Design
 tags:
   - communication patterns

@@ -3,7 +3,7 @@ publishDate: 2023-06-14
 title: Communication Patterns - APIs
 slug: communication-patterns-apis
 excerpt: As complexity increases, more software parts act as a source of information -- with layers that govern communication.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725385240/json_vn9bwd.png
+image: https://res.cloudinary.com/mentrix/image/upload/v1725385240/json_vn9bwd.png
 category: Systems Design
 tags:
   - communication patterns

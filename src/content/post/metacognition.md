@@ -3,7 +3,7 @@ publishDate: 2022-10-14
 title: Metacognition
 slug: metacognition
 excerpt: If you want to change what you deploy, you first need to change how you think. You can not change your thinking if you aren't aware of your thinking.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725362714/metacognition_zbvjqy.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725362714/metacognition_zbvjqy.jpg
 category: Metacognition
 tags: 
   - thinking

@@ -3,7 +3,7 @@ publishDate: 2024-06-28
 title: Learning to Respond - Inference
 slug: learning-to-respond-inference
 excerpt: Inference helps us build bridges between from one sound idea to another.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725438935/inference_th2ut6.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725438935/inference_th2ut6.jpg
 category: Metacognition
 tags:
   - learning to respond

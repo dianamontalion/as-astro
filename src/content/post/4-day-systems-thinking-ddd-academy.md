@@ -3,7 +3,7 @@ publishDate: 2024-09-14
 author: Diana Montalion
 title: "4 Day Remote Workshop: Learning Systems Thinking -- DDD Academy"
 excerpt: Systems thinking practices that will help you make impactful changes -- despite the emerging complexity of modern systems.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1726328038/DDD_Academy_e8wcam.png
+image: https://res.cloudinary.com/mentrix/image/upload/v1726328038/DDD_Academy_e8wcam.png
 category: Events
 tags:
   - workshop
