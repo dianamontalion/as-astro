@@ -2,7 +2,7 @@
 publishDate: 2026-07-14T12:00:41.000Z
 title: Welcome
 excerpt: Architecting Systems is not (just) a newsletter -- it's a digital ecosystem of systems thinking tools and practices.
-image: https://res.cloudinary.com/dceomfgwj/image/upload/v1725437578/welcome_cqoclg.jpg
+image: https://res.cloudinary.com/mentrix/image/upload/v1725437578/welcome_cqoclg.jpg
 category: Info
 ---
 Architecting Systems (AS) is an independent publication launched by [Diana Montalion](https://montalion.com). Diana is systems architect, writer, speaker and knowledge flow deviser. She is also part of a growing community of systems thinkers who are working together to create better information and knowledge systems. You'll meet them too!
