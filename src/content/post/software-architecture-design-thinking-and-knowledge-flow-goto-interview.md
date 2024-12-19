@@ -1,0 +1,29 @@
+---
+title: Software Architecture, Design Thinking & Knowledge Flow -- goto
+slug: software-architecture-design-thinking-and-knowledge-flow-goto-interview
+publishDate: 2024-12-19
+excerpt: Interview at GOTO 2024 discusses systems thinking in software architecture and how effective knowledge flow shapes organizational dynamics and team performance.
+image: https://res.cloudinary.com/mentrix/image/upload/v1734623755/Goto_interview2024_fsrhdo.jpg
+category: Featured
+tags:
+  - thinking
+---
+
+### Understanding Systems Thinking and the Role of an Architect
+
+In this insightful discussion, Diana and Kris delves into the evolving and often misunderstood role of an architect in the tech world. Drawing from systems thinking, they explain:
+
+- **Defining an Architect**: The role of an architect is fluid, context-dependent, and tailored to the unique challenges of different systems. There is no "one architect to rule them all."
+- **The Real Problem with Silos**: Teams in organizations are often disconnected, and attempts to bridge silos (like holding meetings) rarely solve systemic issues.
+- **Architecture as Relationships**: Architecture is about understanding **how relationships produce effects** within a system, identifying patterns, and addressing root causes instead of symptoms.
+- **Avoiding Glue Work**: Architects shouldn't just "patch" teams together. Instead, they should focus on redesigning communication and workflows to enable effective collaboration.
+
+Diana emphasizes how **knowledge flow** is critical to organizational success. They discuss how architects must synthesize inputs from leaders, teams, and technology to align the system with its goals, highlighting the importance of:
+
+- Addressing counterintuitive patterns in complex systems.
+- Focusing on shared purpose and systemic capabilities over isolated features.
+- Iterative approaches to architecture rather than top-down, linear plans.
+
+Kris constructs a thought-provoking take on how we can rethink the architect's role and use systems thinking to design better, more resilient organizations.
+
+[Watch the interview](https://www.youtube.com/watch?v=5olb_uNB_5k)
