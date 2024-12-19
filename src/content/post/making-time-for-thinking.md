@@ -7,10 +7,11 @@ excerpt: Power and control can be nice to have but what we need most is … time
 image: https://res.cloudinary.com/mentrix/image/upload/v1725436780/time-to-think_ktbcwo.jpg
 category: Featured
 tags:
- - thinking
+  - thinking
 ---
-> *“Human beings, it seems, are at their best when immersed deeply in something challenging."
-> -- Cal Newport*
+
+> _Human beings, it seems, are at their best when immersed deeply in something challenging.
+> -- Cal Newport_
 
 As we move toward thinking together about a system of interrelated software, the conceptual load can become overwhelming. The question I’m asked most often is “what about the cognitive load?” People feel exhausted, as if they can never do enough, and constantly frustrated by the rising demand for ever-more skill development. How do we know when there’s just too much complexity?
 
@@ -83,5 +84,3 @@ These are short episodes from a master of self-directed deep work. Topics includ
 This course is taught once per year. Join the waiting list to join the next cohort.
 
 [Learn](https://www.top-performer-course.com/)
-
-

@@ -21,7 +21,7 @@ Systems thinking is a mindset and methodology that focuses on the **relationship
 
 As Diana explains:
 
-> “Systems thinking is the antithesis of reductionism. It expands our toolset as professionals to better understand how relationships produce outcomes.”
+> Systems thinking is the antithesis of reductionism. It expands our toolset as professionals to better understand how relationships produce outcomes.
 
 In a software context, this means looking beyond individual pieces of code and understanding how various services, teams, and workflows interact to create overall system behavior.
 
@@ -41,7 +41,7 @@ Leverage points are areas in a system where **small changes can produce signific
 
 Diana emphasizes the importance of communication:
 
-> “Systems thinking is all about relationships—between software parts, teams, and the knowledge that flows between them.”
+> Systems thinking is all about relationships—between software parts, teams, and the knowledge that flows between them.
 
 By fostering collaboration, teams can make better decisions, resolve conflicts efficiently, and align around shared goals.
 
@@ -94,9 +94,9 @@ Modeling involves creating visual representations of systems to better understan
 
   Visualizing systems reveals hidden issues, promotes shared understanding, and encourages creative problem-solving.
 
-> Diana highlights:
->
-> “Modeling shifts us away from reactive problem-solving to thinking about the bigger picture.”
+Diana highlights:
+
+> Modeling shifts us away from reactive problem-solving to thinking about the bigger picture.
 
 ---
 
