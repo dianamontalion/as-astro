@@ -1,0 +1,149 @@
+---
+title: Learning Systems Thinking with Diana Montalion and Lisa Moritz
+slug: learning-systems-thinking-interview-software-architect-stream
+publishDate: 2024-12-19
+excerpt: A live discussion on systems thinking, nonlinear skills, and software resilience
+image: https://res.cloudinary.com/mentrix/image/upload/v1734628924/software_architect_stream_interview_with_lisa_moritz_pvttlk.jpg
+category: Featured
+tags:
+  - thinking
+---
+
+## **Mastering Systems Thinking: A Practical Guide for Software Professionals**
+
+In today’s rapidly evolving software landscape, understanding **systems thinking** has become essential for tackling complexity. In a recent conversation on _Software Architect Stream_, systems architect **Diana Montalion** shared valuable insights from her book _"Learning Systems Thinking: Essential Nonlinear Skills and Practices for Software Professionals."_ She explores how systems thinking empowers teams to move beyond linear approaches and design better, more resilient systems.
+
+---
+
+### **What is Systems Thinking?**
+
+Systems thinking is a mindset and methodology that focuses on the **relationships between components** rather than isolated parts. Unlike traditional linear thinking—where decisions are often made top-down—systems thinking looks at the broader patterns, behaviors, and interactions to create impactful solutions.
+
+As Diana explains:
+
+> “Systems thinking is the antithesis of reductionism. It expands our toolset as professionals to better understand how relationships produce outcomes.”
+
+In a software context, this means looking beyond individual pieces of code and understanding how various services, teams, and workflows interact to create overall system behavior.
+
+---
+
+### **Why Systems Thinking Matters in Software Development**
+
+#### 1. **Handling Complexity**
+
+Modern software systems are inherently complex. Whether you're building microservices, platforms, or APIs, the relationships between different components determine system performance, scalability, and reliability. Systems thinking equips teams to navigate this complexity effectively.
+
+#### 2. **Identifying Leverage Points**
+
+Leverage points are areas in a system where **small changes can produce significant results**. Instead of writing a thousand lines of code that may have limited impact, systems thinking helps focus efforts on changes that deliver the most value.
+
+#### 3. **Improving Communication and Decision-Making**
+
+Diana emphasizes the importance of communication:
+
+> “Systems thinking is all about relationships—between software parts, teams, and the knowledge that flows between them.”
+
+By fostering collaboration, teams can make better decisions, resolve conflicts efficiently, and align around shared goals.
+
+---
+
+### **Practical Techniques to Start Systems Thinking**
+
+If you’re new to systems thinking, here are three actionable practices you can try with your team:
+
+#### 1. **The Yes, And Approach**
+
+Borrowed from improvisational comedy, the _Yes, And_ technique improves team communication by encouraging active listening and constructive dialogue.
+
+- **How it works**:
+
+  When someone presents an idea or problem, start by **acknowledging** it before contributing your own perspective. For example:
+
+  “Yes, I see the issue with our current deployment pipeline. And I think we could explore automation to address this.”
+
+- **Why it helps**:
+
+  It reduces friction and prevents reactive or dismissive behavior, fostering a more collaborative environment.
+
+---
+
+#### 2. **Use Architecture Decision Records (ADRs)**
+
+ADRs are lightweight documents that capture the decisions made about your system, along with the reasoning and alternatives considered.
+
+- **What to include in an ADR**:
+  - The problem you’re solving.
+  - The options you considered and why they were rejected.
+  - The reasons behind the chosen solution.
+  - Why this decision matters to the system and organization.
+- **Why it helps**:
+
+  ADRs create **transparency**, help teams understand past decisions, and prevent repetitive debates. They’re especially powerful when revisiting decisions as the system evolves.
+
+---
+
+#### 3. **Visualize Problems Through Modeling**
+
+Modeling involves creating visual representations of systems to better understand their behavior. Tools like **event storming**, data flow diagrams, or dependency maps allow teams to analyze complex relationships.
+
+- **Start simple**:
+
+  Open a collaborative tool like Miro, and diagram your current system architecture, workflows, or problems. Focus on how components interact and identify patterns or bottlenecks.
+
+- **Why it helps**:
+
+  Visualizing systems reveals hidden issues, promotes shared understanding, and encourages creative problem-solving.
+
+> Diana highlights:
+>
+> “Modeling shifts us away from reactive problem-solving to thinking about the bigger picture.”
+
+---
+
+### **Key Takeaways for Software Professionals**
+
+1. **Focus on Relationships**:
+
+   Whether it’s between software components, teams, or tools, relationships define the success of a system.
+
+2. **Communicate Effectively**:
+
+   Use techniques like the _Yes, And_ method and ADRs to improve collaboration and decision-making.
+
+3. **Think Beyond Code**:
+
+   Systems thinking isn’t just about technology—it’s about understanding **how everything works together** to achieve a common goal.
+
+4. **Start Small**:
+
+   You don’t need to overhaul your entire workflow. Simple practices like modeling or visualizing problems can introduce systems thinking gradually.
+
+---
+
+### **Debugging the Cat: Systems Thinking in Action**
+
+Diana shares a humorous yet insightful story about “debugging” her sick cat. Veterinary professionals, much like software teams, used **systemic reasoning** to identify possible issues and experiment with solutions—proving that systems thinking applies to more than just software.
+
+This real-world example underscores the importance of reasoning, collaboration, and iterative problem-solving when tackling complex challenges.
+
+---
+
+### **Conclusion: Systems Thinking as a Superpower**
+
+Diana’s _"Learning Systems Thinking"_ provides a practical framework for software professionals to embrace nonlinear thinking and navigate today’s complex systems. By focusing on relationships, fostering communication, and applying tools like ADRs and modeling, teams can build better systems with less friction.
+
+#### **Ready to Start?**
+
+- **Read the Book**: _Learning Systems Thinking_ offers real-world examples and actionable techniques.
+- **Try a Technique**: Introduce the _Yes, And_ practice or start documenting decisions with ADRs.
+- **Think Systemically**: Shift your focus from isolated components to the relationships that shape your system.
+
+---
+
+**Systems thinking isn’t just a methodology—it’s a mindset. And for software professionals, it’s the key to building resilient, adaptable, and impactful systems.**
+
+_What small step will you take towards systems thinking today?_
+
+<!-- [Watch the podcast](https://www.youtube.com/watch?v=07IYACU8t-E) -->
+
+<iframe width="650" height="380" src="https://www.youtube.com/embed/07IYACU8t-E?si=rrgiOGPHOgGU5Yd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
