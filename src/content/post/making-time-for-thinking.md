@@ -10,8 +10,8 @@ tags:
   - thinking
 ---
 
-> _Human beings, it seems, are at their best when immersed deeply in something challenging.
-> -- Cal Newport_
+> "Human beings, it seems, are at their best when immersed deeply in something challenging."
+> -- Cal Newport
 
 As we move toward thinking together about a system of interrelated software, the conceptual load can become overwhelming. The question I’m asked most often is “what about the cognitive load?” People feel exhausted, as if they can never do enough, and constantly frustrated by the rising demand for ever-more skill development. How do we know when there’s just too much complexity?
 

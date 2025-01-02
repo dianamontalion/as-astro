@@ -10,10 +10,12 @@ category: Systems Design
 tags:
   - communication patterns
 ---
-> *Reducing coupling doesn’t necessarily reduce the risk of making a mistake when changing a single element. Reducing coupling reduces the number of elements changing at once and reduces the chances that you’ll miss one of the elements that need to change in sync.
-> -- Kent Beck*
+
+> "Reducing coupling doesn’t necessarily reduce the risk of making a mistake when changing a single element. Reducing coupling reduces the number of elements changing at once and reduces the chances that you’ll miss one of the elements that need to change in sync."
+> -- Kent Beck
 
 This series:
+
 - [Intro](/communication-patterns-intro)
 - **Decoupling**
 - [Integration](communication-patterns-integration)
@@ -102,5 +104,3 @@ This short lab from the 2019 O’Reilly Software Architecture conference (the la
 Requires an O'Reilly platform subscription (free trial available).
 
 [Learn](https://www.oreilly.com/library/view/oreilly-software-architecture/9781492050506/video324131.html)
-
-

@@ -8,10 +8,12 @@ category: Systems Design
 tags:
   - communication patterns
 ---
-> Excessive complexity is nature’s punishment for organizations who are unable to make decisions.
-> *--* Gregor Hohpe
+
+> "Excessive complexity is nature’s punishment for organizations who are unable to make decisions."
+> -- Gregor Hohpe
 
 This series:
+
 - [Intro](/communication-patterns-intro)
 - [Decoupling](/communication-patterns-decoupling)
 - **Integration**
@@ -24,10 +26,10 @@ Last week, we explored drawing boundaries around software parts. What is decoupl
 Interestingly, the patterns we rely on today haven’t changed much over time – despite remarkable change in the technology tools that implement them. Like most systems architecture practices, the skills needed to apply them are (somewhat) technology agnostic.
 
 > “When Bobby Woolf and I started to document the [integration] patterns 20 years ago, the key technologies for distributed applications were JMS, SOAP, MSMQ, and .NET WCF. Large-scale application integration was done with integration tools and platforms, such as IBM WebSphere MQ, TIBCO, WebMethods (now Software AG), or Microsoft BizTalk. Although technology has evolved, many of these products still form the backbone of modern enterprises.
-> 
+>
 > Cloud platforms and deployment automation have laid the foundation for a new generation of distributed systems: microservices and serverless architectures. Those applications rely on a smooth interconnect between components, giving rise to Service Meshes, Serverless Orchestrators, and Event Buses. Amazingly, we find the same integration patterns in those systems!”
-> 
-> *– Gregor Hohpe*
+>
+> -– Gregor Hohpe
 
 Patterns enable communication between software parts without tight coupling. Inherent in pattern design is building the necessary mechanisms, like message queues, Kafka streams and endpoints.
 
@@ -51,7 +53,7 @@ As always, we’d love to hear any recommendations you have!
 
 by Gregor Hohpe & Bobby Woolf
 
-This book has been around for decades. Yet, it’s still relevant in critical ways. It’s a good place to start thinking about patterns, which can then be adapted to more-modern situations. You can also  [explore them here](https://www.enterpriseintegrationpatterns.com/) (if you don’t mind the old school webpage design).
+This book has been around for decades. Yet, it’s still relevant in critical ways. It’s a good place to start thinking about patterns, which can then be adapted to more-modern situations. You can also [explore them here](https://www.enterpriseintegrationpatterns.com/) (if you don’t mind the old school webpage design).
 
 [Read](https://bookshop.org/p/books/enterprise-integration-patterns-designing-building-and-deploying-messaging-solutions-gregor-hohpe/115845?ean=9780321200686)
 
@@ -77,6 +79,4 @@ taught by Ron Johnson for Skillsoft
 
 If you want to get your hands dirty with some hard-core implementation of a few basics. Fair warning: he says "applications" a lot.
 
-[Learn](https://www.skillsoft.com/channel/data-integration-6d9c0e90-b293-11e7-a9da-49acecd508d2?technologyandversion=54746&amp;expertiselevel=54745)
-
-
+[Learn](https://www.skillsoft.com/channel/data-integration-6d9c0e90-b293-11e7-a9da-49acecd508d2?technologyandversion=54746&expertiselevel=54745)

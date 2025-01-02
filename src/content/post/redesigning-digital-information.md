@@ -8,19 +8,20 @@ category: Systems Design
 tags:
   - knowledge flow
 ---
-> *Information is a source of learning. But unless it is organized, processed, and available to the right people in a format for decision making, it is a burden, not a benefit.
-> 
-> -- William Pollard*
 
-When *The Economist* envisioned their digital presence, they imagined a weekly print magazine readable via a web browser. In print, an article might span a few pages but digitally, one article equals one page. Wikipedia imagined a digital encyclopedia where every subject, from Albert Einstein to high five, was an editable web page. The home page of the New York Times was the digital translation of front-page news.
+> "Information is a source of learning. But unless it is organized, processed, and available to the right people in a format for decision making, it is a burden, not a benefit."
+>
+> -- William Pollard
 
-Fast forward a decade or so. *The Economist* publishes an article to dozens of digital platforms; they also have films. Wikipedia is a ubiquitous digital knowledge graph helping to structure the internet. And more than 6 million people subscribe to the digital-only version of the NY Times.
+When _The Economist_ envisioned their digital presence, they imagined a weekly print magazine readable via a web browser. In print, an article might span a few pages but digitally, one article equals one page. Wikipedia imagined a digital encyclopedia where every subject, from Albert Einstein to high five, was an editable web page. The home page of the New York Times was the digital translation of front-page news.
+
+Fast forward a decade or so. _The Economist_ publishes an article to dozens of digital platforms; they also have films. Wikipedia is a ubiquitous digital knowledge graph helping to structure the internet. And more than 6 million people subscribe to the digital-only version of the NY Times.
 
 The paradigm has shifted – from publishing pages to a hyperconnected, interrelated information system in motion across the digital ecosphere. Information is consumed by many different devices in many different contexts. This shift triggers the need for digital transformation.
 
 Invariably, organizations approach this change as a technology change. Decouple the front end, choose between React and Vue. Design continuous delivery pipelines to liberate deployment from years of weekly releases. Build APIs, publish events and put microservices in containers.
 
-These tools and practices support transformation … but they are not the transformation. Transformation is at the heart of the system. ***Information designed to fit software logic must now be restructured to serve emergent consumer logic.***
+These tools and practices support transformation … but they are not the transformation. Transformation is at the heart of the system. **_Information designed to fit software logic must now be restructured to serve emergent consumer logic._**
 
 In other words, the way we design information needs to shift first, before we rebuild the technology around that information.
 
@@ -42,7 +43,7 @@ Software for digital information publishing, like WordPress, deconstructs conten
 
 #### Relationships aren’t always explicit
 
-In a decoupled world, some responsibilities (like navigation through menus) move out of the source software. But the relationships that enable hierarchical (navigation, embedded video, sections of a page) and lateral (topics, categories, shared resources) interrelationships aren’t easy to parse. Relationships let consumers dynamically create an ever-changing *and purposefully changeable* user experience. The logic they use arises from the information they retrieve.
+In a decoupled world, some responsibilities (like navigation through menus) move out of the source software. But the relationships that enable hierarchical (navigation, embedded video, sections of a page) and lateral (topics, categories, shared resources) interrelationships aren’t easy to parse. Relationships let consumers dynamically create an ever-changing _and purposefully changeable_ user experience. The logic they use arises from the information they retrieve.
 
 ### Three principles that help
 
@@ -71,5 +72,3 @@ This is the most essential practice. This newsletter is a good example! What you
 **Resources from one expert:** I can organize the works of a single person, completely separate from the newsletter context.
 
 [Take a Look](https://gist.github.com/dianamontalion/407257dd553b7fac97eefb3f8f98afed)
-
-

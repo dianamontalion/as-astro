@@ -5,6 +5,15 @@ module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,json,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            blockquote: {
+              quotes: "none",
+            },
+          },
+        },
+      },
       colors: {
         primary: 'var(--aw-color-primary)',
         secondary: 'var(--aw-color-secondary)',

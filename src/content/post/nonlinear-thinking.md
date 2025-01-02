@@ -4,7 +4,7 @@ title: Nonlinear Thinking
 slug: nonlinear-thinking
 date_published: 2023-10-27T12:00:00.000Z
 date_updated: 2024-08-14T18:04:08.000Z
-excerpt: Exploring nonlinear thinking and approaches from experienced systems thinkers working inside, and outside, technology. 
+excerpt: Exploring nonlinear thinking and approaches from experienced systems thinkers working inside, and outside, technology.
 image: https://res.cloudinary.com/mentrix/image/upload/v1725362715/nonlinear-thinking_oh00ym.jpg
 category: Featured
 tags:
@@ -12,8 +12,8 @@ tags:
   - thinking
 ---
 
-> “The true system, the real system, is our present construction of systematic thought itself, rationality itself, and if a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory. If a revolution destroys a government, but the systematic patterns of thought that produced that government are left intact, then those patterns will repeat themselves. . . . There’s so much talk about the system. And so little understanding. ” 
-> 
+> "The true system, the real system, is our present construction of systematic thought itself, rationality itself, and if a factory is torn down but the rationality which produced it is left standing, then that rationality will simply produce another factory. If a revolution destroys a government, but the systematic patterns of thought that produced that government are left intact, then those patterns will repeat themselves. . . . There’s so much talk about the system. And so little understanding."
+>
 > — Robert M Pirsig, Zen and the Art of Motorcycle MaintenanceSource
 
 40 years ago, we searched for an apartment, or the job to pay for it, in a newspaper. Information lived at the local library. We mailed letters, we waited for phone calls. On Wednesday night at precisely 8pm, we watched our favorite show. On Saturdays, we went to the movies.
@@ -51,8 +51,8 @@ Peter Senge describes learning organizations as “…organizations where people
 
 ### A Talk About Systems Thinking
 
-> “The reason for the failures is primarily the fact that they have not been embedded in systems thinking. They have been anti-systemic applications.”
-> 
+> "The reason for the failures is primarily the fact that they have not been embedded in systems thinking. They have been anti-systemic applications."
+>
 > -- Russel Ackoff
 
 There is no exploration of systems thinking without, at some point, quoting Russel Ackoff. He was born in 1919, died in 2009, so this video is “old” by our current production standards. But what he’s saying is no less relevant. [An article to read, if you prefer](https://thesystemsthinker.com/why-few-organizations-adopt-systems-thinking/).
@@ -62,7 +62,7 @@ There is no exploration of systems thinking without, at some point, quoting Russ
 ### Software Architektur im Stream E137: Nonlinear Thinking
 
 > “We are used to linear thinking - but really nonlinear thinking and systems thinking is what helps in a lot of modern challenges around software architecture. Diana Montalion is an expert on these subjects and applies them to software architecture regularly. She will tell us how nonlinear thinking helps with software architecture and why it is important.”
-> 
+>
 > -- Eberhard Wolff, stream host
 
 [Learn more](https://systemslibrary.com/resources/software-architektur-im-stream-e137-nonlinear-thinking)

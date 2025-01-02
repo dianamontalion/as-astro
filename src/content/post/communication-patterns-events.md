@@ -10,7 +10,9 @@ category: Systems Design
 tags:
   - communication patterns
 ---
+
 This series:
+
 - [Intro](/communication-patterns-intro)
 - [Decoupling](/communication-patterns-decoupling)
 - [Integration](communication-patterns-integration)
@@ -48,7 +50,7 @@ Here are some resources. As always, we’d love to hear any recommendations you 
 
 ### Building Event-Driven Microservices: Leveraging Organizational Data at Scale
 
-**by****Adam Bellemare**
+**by Adam Bellemare**
 
 This book takes a thorough look at events. The title says “microservices” but, because they are “software parts”, the event aspect doesn’t depend on whether or not the part is technically a microservice.
 
@@ -60,7 +62,7 @@ This book takes a thorough look at events. The title says “microservices” bu
 
 A live example of a group modeling events. The events are based on a real-life experience rather than a software example. Which is a good way to introduce event modeling.
 
-[Watch](https://www.youtube.com/watch?v=CbPEibNUe0s&amp;t=185s)
+[Watch](https://www.youtube.com/watch?v=CbPEibNUe0s&t=185s)
 
 ### Event-Driven Systems at ASOS
 
@@ -78,5 +80,6 @@ An overview course that goes well beyond the high-level explanations we’ve exp
 
 [Learn](https://www.udemy.com/course/event-driven-architecture-the-complete-guide/)
 
-> *“If the application is event-driven, it can be decoupled into multiple self-contained components. This helps us become more scalable, because we can always add new components or remove old ones without stopping or breaking the system. If errors and failures are passed to the right component, which can handle them as notifications, the application can become more fault-tolerant or resilient. So if we build our system to be event-driven, we can more easily achieve scalability and failure tolerance, and a scalable, decoupled, and error-proof application is fast and responsive to users.”
-> -- Nickolay Tsvetinov, Learning Reactive Programming with Java 8*
+> “If the application is event-driven, it can be decoupled into multiple self-contained components. This helps us become more scalable, because we can always add new components or remove old ones without stopping or breaking the system. If errors and failures are passed to the right component, which can handle them as notifications, the application can become more fault-tolerant or resilient. So if we build our system to be event-driven, we can more easily achieve scalability and failure tolerance, and a scalable, decoupled, and error-proof application is fast and responsive to users.”
+>
+> -- Nickolay Tsvetinov, Learning Reactive Programming with Java 8

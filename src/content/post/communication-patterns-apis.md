@@ -8,10 +8,12 @@ category: Systems Design
 tags:
   - communication patterns
 ---
-> *“It seems we’ve got a mental block when it comes to hypermedia in web APIs. This is a big problem, because hypermedia is the feature that makes a web API capable of handling changes gracefully.”
-> -- Leonard Richardson*
+
+> “It seems we’ve got a mental block when it comes to hypermedia in web APIs. This is a big problem, because hypermedia is the feature that makes a web API capable of handling changes gracefully.”
+> -- Leonard Richardson
 
 This series:
+
 - [Intro](/communication-patterns-intro)
 - [Decoupling](/communication-patterns-decoupling)
 - [Integration](communication-patterns-integration)
@@ -68,5 +70,3 @@ This podcast has three seasons of episodes ... a cornucopia of discussions on AP
 This bestselling Udemy course has 20K positive reviews and 100K students thus far. If you are a beginner, this is an ideal course to try. The mix of toolset makes it fun for non-beginners too.
 
 [Learn](https://www.udemy.com/course/rest-api-flask-and-python/)
-
-
