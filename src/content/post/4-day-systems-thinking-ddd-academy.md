@@ -1,13 +1,14 @@
 ---
 publishDate: 2024-09-14
 author: Diana Montalion
-title: "4 Day Remote Workshop: Learning Systems Thinking -- DDD Academy"
+title: '4 Day Remote Workshop: Learning Systems Thinking -- DDD Academy'
 excerpt: Systems thinking practices that will help you make impactful changes -- despite the emerging complexity of modern systems.
 image: https://res.cloudinary.com/mentrix/image/upload/v1726328038/DDD_Academy_e8wcam.png
 category: Events
 tags:
   - workshop
 ---
+
 ## **Learning Systems Thinking**
 
 As the relational complexity of our software systems increases, our traditional, linear thinking approaches are insufficient. Software professionals, especially those building modern interdependent, event-driven software and services need to think in systems.
@@ -32,13 +33,13 @@ Software professionals working in "modern" systems where relational complexity i
 - How nonlinear approaches improve the quality of architectural thinking and deliver impactful change for organizations.
 - How writing, thinking and modeling are core architecture practices
 - How to provide a modern style of leadership as software becomes information systems. We will work together on a systems challenge where there is no "right" answer, only the answers we can craft using systems thinking practices.
-    
+
 ### **Testimonial**
 
-> Diana's workshop was well structured and timely, she covered salient themes in a relatively short period. This was thought provoking!
+> "Diana's workshop was well structured and timely, she covered salient themes in a relatively short period. This was thought provoking!"
 
-> The presenter was great! Very clear. Very engaging.
+> "The presenter was great! Very clear. Very engaging."
 
-> Great instructor. I liked the question activities. Diana brought very interesting topics.
+> "Great instructor. I liked the question activities. Diana brought very interesting topics."
 
 ## [Enroll!](https://ddd.academy/learning-systems-thinking/)
