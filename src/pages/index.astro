@@ -7,7 +7,9 @@ import BlogUpcomingPosts from '~/components/widgets/BlogUpcomingPosts.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import BlogFeaturedPosts from '~/components/widgets/BlogFeaturedPosts.astro';
 import Subscribe from '~/components/widgets/Convertkit.astro';
+import { fetchPosts } from '~/utils/graphqlClient.ts';
 
+const { posts } = await fetchPosts();
 
 const metadata = {
   title: 'Architecting Systems',
@@ -17,35 +19,35 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  
   <!-- Hero  -->
   <Hero3
-    id='newsletter'
+    id="newsletter"
     tagline="get the newsletter"
-    actions={[
-      { variant: 'primary', target: '_blank', text: "Subscribe Now", href: "#subscribe" },
-    ]}
+    actions={[{ variant: 'primary', target: '_blank', text: 'Subscribe Now', href: '#subscribe' }]}
     image={{
       src: 'https://res.cloudinary.com/mentrix/image/upload/t_square-fit/v1722945134/ae-email-header_yznvlq.png',
       alt: 'Architecting Systems',
     }}
   >
-  <Fragment slot="title">
-    Design and Deliver <span class="text-accent dark:text-white highlight"
-    >Impactful Systems</span>
-  </Fragment>
+    <Fragment slot="title">
+      Design and Deliver <span class="text-accent dark:text-white highlight">Impactful Systems</span>
+    </Fragment>
 
-  <Fragment slot="subtitle">
-    <span class="hidden sm:inline">
-      <span class="font-semibold">Architecting Systems is the weekly publication for systems thinkers. Develop the skills you need to succeed in an increasingly-complex world. 
-  </Fragment>
-</Hero3>
+    <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold"
+          >Architecting Systems is the weekly publication for systems thinkers. Develop the skills you need to succeed
+          in an increasingly-complex world.</span
+        >
+      </span>
+    </Fragment>
+  </Hero3>
 
   <!-- Latest Posts  -->
   <BlogFeaturedPosts
     title="Featured Posts"
     information={`Read articles to get a feel for Architecting Systems`}
-    linkText='Find more'
+    linkText="Find more"
     count="6"
   >
     <Fragment slot="bg">
@@ -54,144 +56,95 @@ const metadata = {
   </BlogFeaturedPosts>
 
   <!-- subscription form -->
-  <Subscribe id="subscribe"/>
-
+  <Subscribe id="subscribe" />
 
   <!-- Latest Posts  -->
   <BlogLatestPosts
     title="Recent Editions"
     information={`Read articles that are available to free subscribers`}
-    linkText='Find more'
-    count=9
+    linkText="Find more"
+    count="9"
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
     </Fragment>
   </BlogLatestPosts>
-  
-   <!-- Systems School Stuff -->
-<Content
- isReversed
- tagline="school of systems"
- subtitle='Want to dive into learning, right now? Join the community of systems explorers.'
- id="learning"
- items={[
-   {
-     title: 'Learning Resources for Systems Thinkers',
-     description:
-       'Nonlinear skills, practices and approaches for technology professionals building knowledge systems. Recommend your favorites!',
-     icon: 'as-resources',
-   },
-   {
-     title: 'Collections & Types',
-     description:
-       'Articles, talks, books, podcasts, courses and more ... organized by themes and practices that nourish and support systems thinking and design.',
-     icon: 'as-collections',
-   },
-   {
-     title: 'Discover Experts',
-     description:
-       'Browse resources published by systems experts and find more perspectives to support your learning practice.',
-     icon: 'as-expert',
-   },
- ]}
- image={{
-   src: 'https://res.cloudinary.com/mentrix/image/upload/v1722945855/create-once-publish-everywhere-white.jpg',
-   alt: 'Create once publish everywhere image',
- }}
-  callToAction={{
-    target: '_blank',
-    text: 'Visit the Systems Library...',
-    href: 'https://systemslibrary.com/',
-    icon: 'tabler:chevron-right',
-  }}
->
-<Fragment slot="title">
-  <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading text-accent">Join the Community</h3>
-</Fragment>
- <Fragment slot="content">
-   <h3 class="text-2xl font-bold tracking-tight text-heading dark:text-white sm:text-3xl mb-2">The Systems Library</h3>
- </Fragment>
-</Content>
 
+  <!-- Dynamic content inserted here: Posts data -->
+  <div class="my-12">
+    <h2 class="text-3xl font-semibold text-heading">Explore More Content</h2>
+    {
+      posts && posts.length > 0 ? (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {posts.map((post) => (
+            <div key={post.slug} class="bg-white shadow-md rounded-lg p-4">
+              <h3 class="text-xl font-bold">{post.title}</h3>
+              <p class="text-gray-700">{post.body.text}</p>
+              <a href={`/${post.slug}`} class="text-accent hover:underline mt-4 inline-block">
+                Read more
+              </a>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p>No additional content available.</p>
+      )
+    }
+  </div>
 
-<Content
- isAfterContent
- items={[
-   {
-     title: 'Contribute Your Insight',
-     class: 'text-accent',
-     description:
-       'Converse with other technologists faced with increasing complexity. We learn from each other while practicing the art and science of systems design.',
-     icon: 'as-community',
-   },
-   {
-     title: 'Take Courses',
-     description:
-       'Courses on demand and real-time cohort courses that improve our skills and strengthen our practice.',
-     icon: 'as-course',
-   },
-   {
-     title: 'Practice Together',
-     description:
-       'Informal groups to support a specific practice, like daily writing or pitching your ideas.',
-     icon: 'as-practice',
-   },
- ]}
- image={{
-   src: 'https://res.cloudinary.com/mentrix/image/upload/v1722944980/group-thinking-together-white.jpg',
-   alt: 'SystemCrafters Collective image',
- }}
- callToAction={{
-  target: '_blank',
-  text: 'Join the SystemsCrafters Collective ...',
-  href: 'https://mentrix.systems/',
-  icon: 'tabler:chevron-right',
-}}
->
- <Fragment slot="content">
-   <h3 class="text-2xl font-bold text-heading tracking-tight dark:text-white sm:text-3xl mb-2"> SoftwareCrafters Collective</h3>
- </Fragment>
-</Content>
-
-<!-- Book Tout -->
-<BookTout
-id='lst-book'
-tagline="New Book"
-actions={[
-  { variant: 'primary', target: '_blank', text: "O'Reilly", href: 'https://www.oreilly.com/library/view/learning-systems-thinking/9781098151324/' },
-  { text: 'Bookshop', href: 'https://bookshop.org/a/86792/9781098151331' },
-]}
-image={{
-  src: 'https://res.cloudinary.com/mentrix/image/upload/v1723207780/lst-book-cover_xstqq8.jpg',
-  alt: 'Learning Systems Thinking Book',
-}}
->
-
-<Fragment slot="title">
-  Essential <span class="text-accent dark:text-white highlight"
-  >Skills and Practices</span> for Software Professionals
-</Fragment>
-
-<Fragment slot="subtitle">
-  <span class="hidden sm:inline">
-    <span class="font-semibold">Welcome to the systems age, where software professionals are no longer building software—we are building systems of software</span>. In this world of increasing relational complexity, we need to think differently. <br /><br />This book shows you how systems thinking can guide you through the complexity of modern systems. Through a series of practices and real-world scenarios, you will learn to shift your perspective in order to design, develop, and deliver better outcomes.
-  </span>
-</Fragment>
-
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-bg dark:bg-transparent"></div>
-</Fragment>
-</BookTout>
+  <!-- Systems School Stuff -->
+  <Content
+    isReversed
+    tagline="school of systems"
+    subtitle="Want to dive into learning, right now? Join the community of systems explorers."
+    id="learning"
+    items={[
+      {
+        title: 'Learning Resources for Systems Thinkers',
+        description:
+          'Nonlinear skills, practices and approaches for technology professionals building knowledge systems. Recommend your favorites!',
+        icon: 'as-resources',
+      },
+      {
+        title: 'Collections & Types',
+        description:
+          'Articles, talks, books, podcasts, courses and more ... organized by themes and practices that nourish and support systems thinking and design.',
+        icon: 'as-collections',
+      },
+      {
+        title: 'Discover Experts',
+        description:
+          'Browse resources published by systems experts and find more perspectives to support your learning practice.',
+        icon: 'as-expert',
+      },
+    ]}
+    image={{
+      src: 'https://res.cloudinary.com/mentrix/image/upload/v1722945855/create-once-publish-everywhere-white.jpg',
+      alt: 'Create once publish everywhere image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'Visit the Systems Library...',
+      href: 'https://systemslibrary.com/',
+      icon: 'tabler:chevron-right',
+    }}
+  >
+    <Fragment slot="title">
+      <h2 class="text-4xl md:text-5xl font-bold tracking-tighter mb-4 font-heading text-accent">Join the Community</h2>
+    </Fragment>
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight text-heading dark:text-white sm:text-3xl mb-2">
+        The Systems Library
+      </h3>
+    </Fragment>
+  </Content>
 
   <!-- Upcoming Events -->
-
   <BlogUpcomingPosts
-  title="Upcoming Events"
-  information={`I keynote at technology events, as well as develop onsite, remote and custom workshops. Here are some upcoming events.`}
-  linkText="View Upcoming Events"
-  linkUrl="category/events"
-  count="9"
-  >
- </BlogUpcomingPosts>
+    title="Upcoming Events"
+    information={`I keynote at technology events, as well as develop onsite, remote and custom workshops. Here are some upcoming events.`}
+    linkText="View Upcoming Events"
+    linkUrl="category/events"
+    count="9"
+  />
 </Layout>

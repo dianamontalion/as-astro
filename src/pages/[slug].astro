@@ -1,0 +1,25 @@
+---
+import { fetchPosts } from '~/utils/graphqlClient.ts';
+import SinglePost from '~/components/blog/SinglePost.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+export async function getStaticPaths() {
+  const { posts } = await fetchPosts();
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post }, // Pass post data to each page
+  }));
+}
+const { post } = Astro.props;
+
+if (!post) {
+  throw new Error(`Post not found for slug: ${slug}`);
+}
+---
+
+<Layout metadata={{ title: post.title, description: post.excerpt }}>
+  <SinglePost post={post}>
+    <Fragment set:html={post.body.text} />
+  </SinglePost>
+</Layout>

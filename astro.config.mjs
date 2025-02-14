@@ -1,4 +1,5 @@
 import path from 'path';
+// import 'dotenv/config';
 import { fileURLToPath } from 'url';
 import { defineConfig, squooshImageService } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
@@ -43,7 +44,11 @@ export default defineConfig({
   })],
   image: {
     service: squooshImageService(),
-    domains: ['cdn.pixabay.com']
+    domains: ['cdn.pixabay.com'],
+    remotePatterns: [{
+      protocol: 'https',
+      hostname: '**.graphassets.com',
+    }],
   },
   markdown: {
     remarkPlugins: [readingTimeRemarkPlugin],
