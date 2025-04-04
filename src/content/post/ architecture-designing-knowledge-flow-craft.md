@@ -2,7 +2,7 @@
 publishDate: 2025-01-08
 author: Diana Montalion
 title: Architecture is Designing Knowledge Flow -- Craft 2025
-excerpt: "In the tech industry, we are most interested in knowledge stock: What do you know? What information can you apply easily? Whiteboard tests, for example, assess a candidate's stock of knowledge."
+excerpt: 'The tech industry needs to shift from focusing on individual knowledge stock to fostering knowledge flow to make better decisions amidst change. This involves understanding the differences between data, information, knowledge, understanding, and wisdom, and recognizing the importance of developing knowledge systems as a core architectural practice.'
 image: https://res.cloudinary.com/mentrix/image/upload/v1738035800/Craft_2025_ipkhag.png
 category: Events
 tags:
