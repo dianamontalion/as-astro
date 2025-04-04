@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-01-08
+publishDate: 2025-02-08
 author: Diana Montalion
 title: 'The Friction Fix: Building Collaborative Relationships Between Teams  -- QCon London'
 excerpt: 'In the tech industry, we are most interested in knowledge stock: What do you know? This focus is holding many individuals, teams and organizations back. As relational complexity increases, individual knowledge stock is insufficient. What we need is knowledge flow.'

@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-01-14
+publishDate: 2025-01-07
 author: Diana Montalion
 title: Architecture isn't Kubernetes -- NDC London
 excerpt: Architecture, in the systems age, is not (just) Kubernetes. It is is designing relationships between parts (people and tech parts) then adapting those relationship patterns as circumstances change.
