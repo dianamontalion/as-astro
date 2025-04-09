@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-01-10
+publishDate: 2025-03-10
 author: Diana Montalion
 title: Architecture is Designing Knowledge Flow -- Explore DDD
 excerpt: "In the tech industry, we are most interested in knowledge stock: What do you know? What information can you apply easily? Whiteboard tests, for example, assess a candidate's stock of knowledge."

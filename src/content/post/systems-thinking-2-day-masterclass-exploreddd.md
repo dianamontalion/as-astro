@@ -1,5 +1,5 @@
 ---
-publishDate: 2025-01-10
+publishDate: 2025-03-10
 author: Diana Montalion
 title: Systems Thinking 2-Day Masterclass -- Explore DDD
 excerpt: 'This hands-on workshop introduces essential non-linear skills and practices for software professionals.'
