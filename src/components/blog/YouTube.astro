@@ -1,7 +1,7 @@
 ---
 import { YouTube } from 'astro-embed';
 
-const { id } = Astro.props;
+const { id, params } = Astro.props;
 ---
 
-<YouTube id={id} />
+<YouTube id={id} params={params} />
